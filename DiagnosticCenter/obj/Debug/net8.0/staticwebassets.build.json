@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aB3ly77D2Q7wX7iZuUy8cCFhhHDQqfTYV4yzy0fiOyw=",
+  "Source": "DiagnosticCenter",
+  "BasePath": "_content/DiagnosticCenter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

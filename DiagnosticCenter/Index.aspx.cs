@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Configuration;
 using System.Web.UI;
+using Microsoft.AspNetCore.SystemWebAdapters;
 using System.Web.UI.WebControls;
 
 namespace DiagnosticCenter

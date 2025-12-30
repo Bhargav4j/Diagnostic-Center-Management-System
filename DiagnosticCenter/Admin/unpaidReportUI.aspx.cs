@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web.UI.WebControls;
 using System.Drawing;
 using System.Web.UI;
+using Microsoft.AspNetCore.SystemWebAdapters;
 using DiagnosticCenter.BLL;
 using DiagnosticCenter.Models;
 namespace DiagnosticCenter.Admin
