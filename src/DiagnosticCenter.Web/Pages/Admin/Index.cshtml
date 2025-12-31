@@ -1,0 +1,40 @@
+@page
+@model DiagnosticCenter.Web.Pages.Admin.IndexModel
+@{
+    ViewData["Title"] = "Admin Home";
+}
+
+<div class="container">
+    <h2>Admin Dashboard</h2>
+    <p>Welcome, @User.Identity?.Name</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Test Setup Management</h5>
+                    <p class="card-text">Manage diagnostic tests and their configurations</p>
+                    <a asp-page="/Admin/TestSetup/Index" class="btn btn-primary">Manage Tests</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Test Type Management</h5>
+                    <p class="card-text">Manage test categories and types</p>
+                    <a asp-page="/Admin/TestType/Index" class="btn btn-primary">Manage Types</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Reports</h5>
+                    <p class="card-text">View test and payment reports</p>
+                    <a asp-page="/Admin/Reports" class="btn btn-primary">View Reports</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

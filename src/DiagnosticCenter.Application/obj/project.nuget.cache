@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MUudIzMqFAk=",
+  "success": true,
+  "projectFilePath": "/modernize-data/studio-data/TNT1001/APP2662/transformed-code/818/studio-workspace/Comp-Diagnostic-new/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/studioai/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/studioai/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

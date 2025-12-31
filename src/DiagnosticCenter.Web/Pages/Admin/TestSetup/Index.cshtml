@@ -1,0 +1,47 @@
+@page
+@model DiagnosticCenter.Web.Pages.Admin.TestSetup.IndexModel
+@{
+    ViewData["Title"] = "Test Setup Management";
+}
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Test Setup Management</h2>
+        <a asp-page="Create" class="btn btn-primary">Add New Test</a>
+    </div>
+
+    @if (Model.TestSetups != null && Model.TestSetups.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Fee</th>
+                    <th>Type</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.TestSetups)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Fee.ToString("C")</td>
+                        <td>@item.TestType?.Name</td>
+                        <td>
+                            <a asp-page="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                            <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-page="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No test setups found.</p>
+    }
+</div>

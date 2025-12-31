@@ -1,0 +1,35 @@
+@page
+@model DiagnosticCenter.Web.Pages.Admin.TestSetup.CreateModel
+@{
+    ViewData["Title"] = "Create Test Setup";
+}
+
+<div class="container">
+    <h2>Create New Test Setup</h2>
+
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Test Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Fee" class="form-label">Fee</label>
+            <input asp-for="Fee" class="form-control" type="number" step="0.01" />
+            <span asp-validation-for="Fee" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="TypeId" class="form-label">Test Type</label>
+            <select asp-for="TypeId" asp-items="Model.TestTypes" class="form-select">
+                <option value="">-- Select Test Type --</option>
+            </select>
+            <span asp-validation-for="TypeId" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
