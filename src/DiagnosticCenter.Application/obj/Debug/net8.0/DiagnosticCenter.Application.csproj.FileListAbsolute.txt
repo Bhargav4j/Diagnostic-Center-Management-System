@@ -1,0 +1,16 @@
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/bin/Debug/net8.0/DiagnosticCenter.Application.deps.json
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/bin/Debug/net8.0/DiagnosticCenter.Application.dll
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/bin/Debug/net8.0/DiagnosticCenter.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/bin/Debug/net8.0/DiagnosticCenter.Domain.dll
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/bin/Debug/net8.0/DiagnosticCenter.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/Diagnost.34D73F96.Up2Date
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.dll
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/refint/DiagnosticCenter.Application.dll
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.pdb
+/modernize-data/studio-data/TNT1001/APP2664/transformed-code/819/studio-workspace/Comp-Diagnostic-31/src/DiagnosticCenter.Application/obj/Debug/net8.0/ref/DiagnosticCenter.Application.dll

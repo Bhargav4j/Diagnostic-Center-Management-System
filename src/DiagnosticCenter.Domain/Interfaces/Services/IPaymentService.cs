@@ -1,0 +1,17 @@
+using DiagnosticCenter.Domain.Entities;
+
+namespace DiagnosticCenter.Domain.Interfaces.Services;
+
+/// <summary>
+/// Service interface for Payment business logic
+/// </summary>
+public interface IPaymentService
+{
+    Task<IEnumerable<Payment>> GetAllAsync(CancellationToken cancellationToken = default);
+    Task<Payment?> GetByIdAsync(int id, CancellationToken cancellationToken = default);
+    Task<IEnumerable<Payment>> GetByBillNoAsync(string billNo, CancellationToken cancellationToken = default);
+    Task<Payment> CreateAsync(Payment payment, CancellationToken cancellationToken = default);
+    Task UpdateAsync(int id, Payment payment, CancellationToken cancellationToken = default);
+    Task DeleteAsync(int id, CancellationToken cancellationToken = default);
+    Task<IEnumerable<Payment>> SearchAsync(string searchTerm, CancellationToken cancellationToken = default);
+}
