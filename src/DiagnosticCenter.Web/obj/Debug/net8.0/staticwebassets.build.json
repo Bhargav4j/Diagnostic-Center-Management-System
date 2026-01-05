@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "BIv3rB8jM/c0fjm5nu++5CfGLL49DS3BlXl9FP3175g=",
+  "Source": "DiagnosticCenter.Web",
+  "BasePath": "_content/DiagnosticCenter.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DiagnosticCenter.Web/wwwroot",
+      "Source": "DiagnosticCenter.Web",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP2734/transformed-code/873/studio-workspace/Comp-Diagnostic-11/src/DiagnosticCenter.Web/wwwroot/",
+      "BasePath": "_content/DiagnosticCenter.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/modernize-data/studio-data/TNT1001/APP2734/transformed-code/873/studio-workspace/Comp-Diagnostic-11/src/DiagnosticCenter.Web/wwwroot/css/site.css",
+      "SourceId": "DiagnosticCenter.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP2734/transformed-code/873/studio-workspace/Comp-Diagnostic-11/src/DiagnosticCenter.Web/wwwroot/",
+      "BasePath": "_content/DiagnosticCenter.Web",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/modernize-data/studio-data/TNT1001/APP2734/transformed-code/873/studio-workspace/Comp-Diagnostic-11/src/DiagnosticCenter.Web/wwwroot/js/site.js",
+      "SourceId": "DiagnosticCenter.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP2734/transformed-code/873/studio-workspace/Comp-Diagnostic-11/src/DiagnosticCenter.Web/wwwroot/",
+      "BasePath": "_content/DiagnosticCenter.Web",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}

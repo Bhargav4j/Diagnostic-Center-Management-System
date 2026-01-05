@@ -1,0 +1,59 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestTypes.DetailsModel
+@{
+    ViewData["Title"] = "Test Type Details";
+}
+
+<h2>Test Type Details</h2>
+
+<hr />
+@if (Model.TestType != null)
+{
+    <dl class="row">
+        <dt class="col-sm-3">Name</dt>
+        <dd class="col-sm-9">@Model.TestType.Name</dd>
+
+        <dt class="col-sm-3">Description</dt>
+        <dd class="col-sm-9">@Model.TestType.Description</dd>
+
+        <dt class="col-sm-3">Created Date</dt>
+        <dd class="col-sm-9">@Model.TestType.CreatedDate.ToString("yyyy-MM-dd HH:mm")</dd>
+
+        <dt class="col-sm-3">Created By</dt>
+        <dd class="col-sm-9">@Model.TestType.CreatedBy</dd>
+
+        @if (Model.TestType.ModifiedDate.HasValue)
+        {
+            <dt class="col-sm-3">Modified Date</dt>
+            <dd class="col-sm-9">@Model.TestType.ModifiedDate.Value.ToString("yyyy-MM-dd HH:mm")</dd>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.TestType.ModifiedBy))
+        {
+            <dt class="col-sm-3">Modified By</dt>
+            <dd class="col-sm-9">@Model.TestType.ModifiedBy</dd>
+        }
+
+        <dt class="col-sm-3">Status</dt>
+        <dd class="col-sm-9">
+            @if (Model.TestType.IsActive)
+            {
+                <span class="badge bg-success">Active</span>
+            }
+            else
+            {
+                <span class="badge bg-danger">Inactive</span>
+            }
+        </dd>
+    </dl>
+
+    <div>
+        <a asp-page="Edit" asp-route-id="@Model.TestType.Id" class="btn btn-warning">Edit</a>
+        <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+}
+else
+{
+    <p>Test type not found.</p>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+}
