@@ -1,0 +1,6 @@
+/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/Tests/obj/Debug/net8.0/DiagnosticCenter.LegacyTests.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/Tests/obj/Debug/net8.0/DiagnosticCenter.LegacyTests.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/Tests/obj/Debug/net8.0/DiagnosticCenter.LegacyTests.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/Tests/obj/Debug/net8.0/DiagnosticCenter.LegacyTests.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/Tests/obj/Debug/net8.0/DiagnosticCenter.LegacyTests.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/Tests/obj/Debug/net8.0/DiagnosticCenter.LegacyTests.sourcelink.json

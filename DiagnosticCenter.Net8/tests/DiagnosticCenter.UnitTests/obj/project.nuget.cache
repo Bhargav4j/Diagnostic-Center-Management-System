@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "e7oLnzO0Pho=",
+  "dgSpecHash": "U0ByvmzJArA=",
   "success": true,
   "projectFilePath": "/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/DiagnosticCenter.Net8/tests/DiagnosticCenter.UnitTests/DiagnosticCenter.UnitTests.csproj",
   "expectedPackageFiles": [
     "/home/studioai/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/studioai/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/studioai/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/home/studioai/.nuget/packages/coverlet.msbuild/6.0.0/coverlet.msbuild.6.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.0/microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",

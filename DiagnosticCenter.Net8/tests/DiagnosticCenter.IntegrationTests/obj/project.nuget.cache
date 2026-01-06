@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MJ2Pm6nu7vU=",
+  "dgSpecHash": "tNBh5kNxa5M=",
   "success": true,
   "projectFilePath": "/modernize-data/studio-data/TNT1001/APP2777/transformed-code/908/studio-workspace/Comp-Diagnostic08/DiagnosticCenter.Net8/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/home/studioai/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/home/studioai/.nuget/packages/coverlet.msbuild/6.0.0/coverlet.msbuild.6.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
