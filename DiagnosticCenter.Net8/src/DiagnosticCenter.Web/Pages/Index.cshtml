@@ -1,0 +1,70 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Diagnostic Center</h1>
+    <p>A modern diagnostic center management system built with ASP.NET Core 8</p>
+
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <div class="mt-4">
+            <h3>Quick Links</h3>
+            <div class="row mt-3">
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Test Types</h5>
+                                <p class="card-text">Manage diagnostic test types</p>
+                                <a asp-page="/TestType/Index" class="btn btn-primary">Go to Test Types</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Test Setup</h5>
+                                <p class="card-text">Configure tests and pricing</p>
+                                <a asp-page="/TestSetup/Index" class="btn btn-primary">Go to Test Setup</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                @if (User.IsInRole("Receptionist"))
+                {
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Test Entries</h5>
+                                <p class="card-text">Manage patient test requests</p>
+                                <a asp-page="/TestEntry/Index" class="btn btn-primary">Go to Test Entries</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                @if (User.IsInRole("Accountant"))
+                {
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Payments</h5>
+                                <p class="card-text">Process payments and bills</p>
+                                <a asp-page="/Payment/Index" class="btn btn-primary">Go to Payments</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="mt-4">
+            <a asp-page="/Account/Login" class="btn btn-primary btn-lg">Login</a>
+        </div>
+    }
+</div>

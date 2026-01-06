@@ -1,0 +1,30 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.TestType.EditModel
+@{
+    ViewData["Title"] = "Edit Test Type";
+}
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+
+    <form method="post">
+        <input type="hidden" asp-for="TestType.Id" />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-3">
+            <label asp-for="TestType.Name" class="form-label">Name</label>
+            <input asp-for="TestType.Name" class="form-control" />
+            <span asp-validation-for="TestType.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="TestType.Description" class="form-label">Description</label>
+            <textarea asp-for="TestType.Description" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="TestType.Description" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

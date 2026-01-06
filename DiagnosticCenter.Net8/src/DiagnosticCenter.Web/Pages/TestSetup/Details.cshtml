@@ -1,0 +1,31 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.TestSetup.DetailsModel
+@{
+    ViewData["Title"] = "Test Setup Details";
+}
+
+<div class="container">
+    <h1>Test Setup Details</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">@Model.TestSetup.Name</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Test Type:</dt>
+                        <dd class="col-sm-8">@Model.TestSetup.TypeName</dd>
+
+                        <dt class="col-sm-4">Description:</dt>
+                        <dd class="col-sm-8">@Model.TestSetup.Description</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <a asp-page="./Edit" asp-route-id="@Model.TestSetup.Id" class="btn btn-warning">Edit</a>
+                <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

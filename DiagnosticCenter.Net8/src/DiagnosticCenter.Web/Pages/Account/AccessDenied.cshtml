@@ -1,0 +1,14 @@
+@page
+@model DiagnosticCenter.Web.Pages.Account.AccessDeniedModel
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="access-denied-container">
+    <h2>@ViewData["Title"]</h2>
+    <p>You do not have permission to access this resource.</p>
+    <div class="actions">
+        <a asp-page="/Account/Login" class="btn btn-primary">Login</a>
+        <a asp-page="/Index" class="btn btn-secondary">Home</a>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestEntry.CreateModel
+@{
+    ViewData["Title"] = "Create Test Entry";
+}
+
+<div class="container">
+    <h1>Create Test Entry</h1>
+
+    <form method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="TestEntry.Name" class="control-label"></label>
+                    <input asp-for="TestEntry.Name" class="form-control" />
+                    <span asp-validation-for="TestEntry.Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="TestEntry.DateOfBirth" class="control-label"></label>
+                    <input asp-for="TestEntry.DateOfBirth" type="date" class="form-control datepicker" />
+                    <span asp-validation-for="TestEntry.DateOfBirth" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="TestEntry.TestId" class="control-label">Test Type</label>
+                    <select asp-for="TestEntry.TestId" asp-items="Model.TestSetups" class="form-control" onchange="calculateTotal()">
+                        <option value="">Select Test</option>
+                    </select>
+                    <span asp-validation-for="TestEntry.TestId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="TestEntry.DueDate" class="control-label"></label>
+                    <input asp-for="TestEntry.DueDate" type="date" class="form-control datepicker" />
+                    <span asp-validation-for="TestEntry.DueDate" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="TestEntry.TotalAmount" class="control-label"></label>
+                    <input asp-for="TestEntry.TotalAmount" class="form-control" readonly />
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        function calculateTotal() {
+            var testSelect = document.getElementById('TestEntry_TestId');
+            var totalInput = document.getElementById('TestEntry_TotalAmount');
+
+            if (testSelect.value) {
+                var selectedOption = testSelect.options[testSelect.selectedIndex];
+                var price = selectedOption.getAttribute('data-price');
+                totalInput.value = price || '0';
+            } else {
+                totalInput.value = '0';
+            }
+        }
+
+        // Initial calculation
+        calculateTotal();
+    </script>
+}

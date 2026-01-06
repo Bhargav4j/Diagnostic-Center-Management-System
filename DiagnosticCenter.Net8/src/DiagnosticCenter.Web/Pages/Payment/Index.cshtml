@@ -1,0 +1,40 @@
+@page
+@model DiagnosticCenter.Web.Pages.Payment.IndexModel
+@{
+    ViewData["Title"] = "Payment History";
+}
+
+<div class="container">
+    <h1>Payment History</h1>
+
+    <div class="row mb-3">
+        <div class="col">
+            <a asp-page="Create" class="btn btn-primary">Record New Payment</a>
+            <a asp-page="UnpaidBills" class="btn btn-warning">View Unpaid Bills</a>
+        </div>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Bill Number</th>
+                <th>Amount</th>
+                <th>Payment Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var payment in Model.Payments)
+            {
+                <tr>
+                    <td>@payment.BillNo</td>
+                    <td>@payment.Amount.ToString("C")</td>
+                    <td>@payment.PaymentDate.ToString("g")</td>
+                    <td>
+                        <a asp-page="Details" asp-route-id="@payment.Id" class="btn btn-info btn-sm">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

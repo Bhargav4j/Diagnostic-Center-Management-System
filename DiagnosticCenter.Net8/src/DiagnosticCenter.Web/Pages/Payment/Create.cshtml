@@ -1,0 +1,69 @@
+@page
+@model DiagnosticCenter.Web.Pages.Payment.CreateModel
+@{
+    ViewData["Title"] = "Record Payment";
+}
+
+<div class="container">
+    <h1>Record Payment</h1>
+
+    <form method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Payment.BillNo">Bill Number</label>
+                    <div class="input-group">
+                        <input asp-for="Payment.BillNo" class="form-control" />
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-secondary" onclick="lookupBill()">Lookup Bill</button>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Payment.BillNo" class="text-danger"></span>
+                </div>
+
+                <div id="billDetails" style="display: none;">
+                    <h4>Bill Details</h4>
+                    <p>Total Bill: <span id="billTotal"></span></p>
+                    <p>Due Amount: <span id="billDueAmount"></span></p>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Payment.Amount">Payment Amount</label>
+                    <input asp-for="Payment.Amount" class="form-control" />
+                    <span asp-validation-for="Payment.Amount" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Record Payment</button>
+                    <a asp-page="Index" class="btn btn-secondary">Back to Payment List</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        async function lookupBill() {
+            const billNumber = document.getElementById('@Html.IdFor(m => m.Payment.BillNo)').value;
+            const billDetailsDiv = document.getElementById('billDetails');
+            const billTotalSpan = document.getElementById('billTotal');
+            const billDueAmountSpan = document.getElementById('billDueAmount');
+
+            try {
+                const response = await fetch(`/api/bills/${billNumber}`);
+                if (!response.ok) {
+                    throw new Error('Bill not found');
+                }
+                const bill = await response.json();
+
+                billDetailsDiv.style.display = 'block';
+                billTotalSpan.textContent = bill.totalAmount.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+                billDueAmountSpan.textContent = bill.dueAmount.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+            } catch (error) {
+                alert('Bill not found. Please check the bill number.');
+                billDetailsDiv.style.display = 'none';
+            }
+        }
+    </script>
+}

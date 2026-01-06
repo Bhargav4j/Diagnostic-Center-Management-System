@@ -1,0 +1,48 @@
+@page
+@model DiagnosticCenter.Web.Pages.Payment.UnpaidBillsModel
+@{
+    ViewData["Title"] = "Unpaid Bills";
+}
+
+<div class="container">
+    <h1>Unpaid Bills</h1>
+
+    @if (Model.UnpaidBills.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Bill Number</th>
+                    <th>Patient Name</th>
+                    <th>Total Bill</th>
+                    <th>Due Amount</th>
+                    <th>Due Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var bill in Model.UnpaidBills)
+                {
+                    <tr>
+                        <td>@bill.BillNo</td>
+                        <td>@bill.PatientName</td>
+                        <td>@bill.TotalAmount.ToString("C")</td>
+                        <td>@bill.DueAmount.ToString("C")</td>
+                        <td>@bill.DueDate.ToString("d")</td>
+                        <td>
+                            <a asp-page="Create" asp-route-billNumber="@bill.BillNo" class="btn btn-primary btn-sm">Pay Bill</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            No unpaid bills at this time.
+        </div>
+    }
+
+    <a asp-page="Index" class="btn btn-secondary">Back to Payment History</a>
+}

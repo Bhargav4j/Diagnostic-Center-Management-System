@@ -1,0 +1,41 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestEntry.IndexModel
+@{
+    ViewData["Title"] = "Test Entries";
+}
+
+<div class="container">
+    <h1>Test Entries</h1>
+
+    <p>
+        <a asp-page="Create" class="btn btn-primary">Create New Entry</a>
+    </p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Patient Name</th>
+                <th>Test Name</th>
+                <th>Total Amount</th>
+                <th>Due Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TestEntries)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.TestName</td>
+                    <td>@item.TotalAmount.ToString("C")</td>
+                    <td>@item.DueDate.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

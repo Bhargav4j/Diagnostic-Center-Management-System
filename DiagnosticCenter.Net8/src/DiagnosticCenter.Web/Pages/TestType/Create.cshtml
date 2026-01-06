@@ -1,0 +1,29 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestType.CreateModel
+@{
+    ViewData["Title"] = "Create Test Type";
+}
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-3">
+            <label asp-for="TestType.Name" class="form-label">Name</label>
+            <input asp-for="TestType.Name" class="form-control" />
+            <span asp-validation-for="TestType.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="TestType.Description" class="form-label">Description</label>
+            <textarea asp-for="TestType.Description" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="TestType.Description" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+        <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

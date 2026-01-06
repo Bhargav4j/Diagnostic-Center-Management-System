@@ -1,0 +1,32 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.Payment.DetailsModel
+@{
+    ViewData["Title"] = "Payment Details";
+}
+
+<div class="container">
+    <h1>Payment Details</h1>
+
+    <div class="card">
+        <div class="card-header">
+            Payment for Bill #@Model.Payment.BillNo
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-sm-4">Payment Amount:</dt>
+                        <dd class="col-sm-8">@Model.Payment.Amount.ToString("C")</dd>
+
+                        <dt class="col-sm-4">Payment Date:</dt>
+                        <dd class="col-sm-8">@Model.Payment.PaymentDate.ToString("g")</dd>
+
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <a asp-page="Index" class="btn btn-secondary">Back to Payment List</a>
+        </div>
+    </div>
+</div>
