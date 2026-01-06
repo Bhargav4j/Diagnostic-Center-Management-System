@@ -1,0 +1,74 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.TestSetup.DetailsModel
+@{
+    ViewData["Title"] = "Test Setup Details";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h2 class="card-title mb-0">Test Setup Details</h2>
+                    <a asp-page="Index" class="btn btn-secondary btn-sm">
+                        <i class="fas fa-arrow-left me-1"></i>Back to List
+                    </a>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label fw-bold">Name:</label>
+                        <div class="col-sm-9">
+                            <p class="form-control-plaintext">@Model.TestSetup.Name</p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label fw-bold">Fee:</label>
+                        <div class="col-sm-9">
+                            <p class="form-control-plaintext">@Model.TestSetup.Fee.ToString("C")</p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label fw-bold">Test Type:</label>
+                        <div class="col-sm-9">
+                            <p class="form-control-plaintext">@Model.TestSetup.TypeName</p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label fw-bold">Description:</label>
+                        <div class="col-sm-9">
+                            <p class="form-control-plaintext">@(Model.TestSetup.Description ?? "N/A")</p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label fw-bold">Status:</label>
+                        <div class="col-sm-9">
+                            <span class="badge @(Model.TestSetup.IsActive ? "bg-success" : "bg-danger")">
+                                @(Model.TestSetup.IsActive ? "Active" : "Inactive")
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label fw-bold">Created Date:</label>
+                        <div class="col-sm-9">
+                            <p class="form-control-plaintext">@Model.TestSetup.CreatedDate.ToString("g")</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <a asp-page="Edit" asp-route-id="@Model.TestSetup.Id" class="btn btn-warning">
+                            <i class="fas fa-edit me-1"></i>Edit
+                        </a>
+                        <a asp-page="Delete" asp-route-id="@Model.TestSetup.Id" class="btn btn-danger">
+                            <i class="fas fa-trash me-1"></i>Delete
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

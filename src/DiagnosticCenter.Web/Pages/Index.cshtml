@@ -1,0 +1,49 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Diagnostic Center</h1>
+    <p class="lead">Manage your diagnostic tests, patients, and payments efficiently.</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Test Types</h5>
+                <p class="card-text">Manage diagnostic test types</p>
+                <a asp-page="/TestType/Index" class="btn btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Test Setup</h5>
+                <p class="card-text">Configure test pricing and details</p>
+                <a asp-page="/TestSetup/Index" class="btn btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Test Entries</h5>
+                <p class="card-text">Manage patient test entries</p>
+                <a asp-page="/TestEntry/Index" class="btn btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Payments</h5>
+                <p class="card-text">Track and manage payments</p>
+                <a asp-page="/Payment/Index" class="btn btn-primary">View</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,78 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.TestSetup.EditModel
+@{
+    ViewData["Title"] = "Edit Test Setup";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Edit Test Setup</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="TestSetup.Id" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="TestSetup.Name" class="form-label"></label>
+                            <input asp-for="TestSetup.Name" class="form-control" />
+                            <span asp-validation-for="TestSetup.Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="TestSetup.Fee" class="form-label"></label>
+                            <input asp-for="TestSetup.Fee" class="form-control" type="number" step="0.01" />
+                            <span asp-validation-for="TestSetup.Fee" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="TestSetup.TypeId" class="form-label">Test Type</label>
+                            <select asp-for="TestSetup.TypeId" class="form-select">
+                                <option value="">-- Select Test Type --</option>
+                                @foreach (var type in Model.TestSetup.TestTypes ?? new List<TestTypeDropdownViewModel>())
+                                {
+                                    <option value="@type.Id">@type.Name</option>
+                                }
+                            </select>
+                            <span asp-validation-for="TestSetup.TypeId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="TestSetup.Description" class="form-label"></label>
+                            <textarea asp-for="TestSetup.Description" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="TestSetup.Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input asp-for="TestSetup.IsActive" class="form-check-input" />
+                            <label asp-for="TestSetup.IsActive" class="form-check-label">Active</label>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label fw-bold">Created Date:</label>
+                            <div class="col-sm-9">
+                                <p class="form-control-plaintext">@Model.TestSetup.CreatedDate.ToString("g")</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-page="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-1"></i>Back to List
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save me-1"></i>Update Test Setup
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

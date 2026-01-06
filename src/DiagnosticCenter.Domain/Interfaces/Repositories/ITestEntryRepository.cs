@@ -1,0 +1,16 @@
+using DiagnosticCenter.Domain.Entities;
+
+namespace DiagnosticCenter.Domain.Interfaces.Repositories;
+
+public interface ITestEntryRepository
+{
+    Task<IEnumerable<TestEntry>> GetAllAsync(CancellationToken cancellationToken = default);
+    Task<TestEntry?> GetByIdAsync(int id, CancellationToken cancellationToken = default);
+    Task<TestEntry?> GetByBillNoAsync(string billNo, CancellationToken cancellationToken = default);
+    Task<TestEntry> AddAsync(TestEntry testEntry, CancellationToken cancellationToken = default);
+    Task UpdateAsync(TestEntry testEntry, CancellationToken cancellationToken = default);
+    Task DeleteAsync(int id, CancellationToken cancellationToken = default);
+    Task<bool> ExistsAsync(int id, CancellationToken cancellationToken = default);
+    Task<IEnumerable<TestEntry>> SearchAsync(string searchTerm, CancellationToken cancellationToken = default);
+    Task<IEnumerable<TestEntry>> GetUnpaidEntriesAsync(CancellationToken cancellationToken = default);
+}

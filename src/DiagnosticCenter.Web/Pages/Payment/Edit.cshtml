@@ -1,0 +1,130 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.Payment.EditModel
+@{
+    ViewData["Title"] = "Edit Payment";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Edit Payment</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Payment.Id" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold">Bill Number:</label>
+                                    <p class="form-control-plaintext">@Model.Payment.BillNo</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold">Mobile Number:</label>
+                                    <p class="form-control-plaintext">@Model.Payment.MobileNo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Payment.PaymentDate" class="form-label">Payment Date</label>
+                                    <input asp-for="Payment.PaymentDate" class="form-control" type="date" />
+                                    <span asp-validation-for="Payment.PaymentDate" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Payment.TotalAmount" class="form-label">Total Amount</label>
+                                    <input asp-for="Payment.TotalAmount" class="form-control" type="number" step="0.01" />
+                                    <span asp-validation-for="Payment.TotalAmount" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Payment.PaidAmount" class="form-label">Paid Amount</label>
+                                    <input asp-for="Payment.PaidAmount" class="form-control" type="number" step="0.01" id="paidAmountInput" />
+                                    <span asp-validation-for="Payment.PaidAmount" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold">Due Amount:</label>
+                                    <span class="badge @(Model.Payment.DueAmount > 0 ? "bg-warning text-dark" : "bg-success") fs-6" id="dueAmountDisplay">
+                                        @Model.Payment.DueAmount.ToString("C")
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3 form-check">
+                                    <input asp-for="Payment.IsActive" class="form-check-input" />
+                                    <label asp-for="Payment.IsActive" class="form-check-label">Active</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold">Created Date:</label>
+                                    <p class="form-control-plaintext">@Model.Payment.CreatedDate.ToString("g")</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-page="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-1"></i>Back to List
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save me-1"></i>Update Payment
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Calculate and display due amount in real-time
+        document.addEventListener('DOMContentLoaded', function() {
+            const totalAmountInput = document.querySelector('input[name="Payment.TotalAmount"]');
+            const paidAmountInput = document.getElementById('paidAmountInput');
+            const dueAmountDisplay = document.getElementById('dueAmountDisplay');
+
+            function updateDueAmount() {
+                const total = parseFloat(totalAmountInput.value) || 0;
+                const paid = parseFloat(paidAmountInput.value) || 0;
+                const due = total - paid;
+
+                dueAmountDisplay.textContent = new Intl.NumberFormat('en-US', {
+                    style: 'currency',
+                    currency: 'USD'
+                }).format(due);
+
+                // Update badge color based on due amount
+                dueAmountDisplay.className = 'badge fs-6 ' + (due > 0 ? 'bg-warning text-dark' : 'bg-success');
+            }
+
+            totalAmountInput.addEventListener('input', updateDueAmount);
+            paidAmountInput.addEventListener('input', updateDueAmount);
+        });
+    </script>
+}

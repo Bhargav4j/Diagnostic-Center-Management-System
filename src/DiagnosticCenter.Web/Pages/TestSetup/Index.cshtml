@@ -1,0 +1,41 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestSetup.IndexModel
+@{
+    ViewData["Title"] = "Test Setup";
+}
+
+<div class="container">
+    <h1 class="my-4">Test Setups</h1>
+
+    <p>
+        <a asp-page="Create" class="btn btn-primary">Create New Test Setup</a>
+    </p>
+
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Fee</th>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TestSetups)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Fee.ToString("C")</td>
+                    <td>@(item.TestTypes?.FirstOrDefault(t => t.Id == item.TypeId)?.Name ?? "N/A")</td>
+                    <td>@item.Description</td>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

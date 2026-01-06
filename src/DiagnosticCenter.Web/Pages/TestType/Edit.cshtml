@@ -1,0 +1,60 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.TestType.EditModel
+@{
+    ViewData["Title"] = "Edit Test Type";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Edit Test Type</h2>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="TestType.Id" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="TestType.Name" class="form-label"></label>
+                            <input asp-for="TestType.Name" class="form-control" />
+                            <span asp-validation-for="TestType.Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="TestType.Description" class="form-label"></label>
+                            <textarea asp-for="TestType.Description" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="TestType.Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input asp-for="TestType.IsActive" class="form-check-input" />
+                            <label asp-for="TestType.IsActive" class="form-check-label"></label>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label fw-bold">Created Date:</label>
+                            <div class="col-sm-9">
+                                <p class="form-control-plaintext">@Model.TestType.CreatedDate.ToString("g")</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-page="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-1"></i>Back to List
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save me-1"></i>Update Test Type
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

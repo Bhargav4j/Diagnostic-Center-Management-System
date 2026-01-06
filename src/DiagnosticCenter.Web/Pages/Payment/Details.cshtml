@@ -1,0 +1,102 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.Payment.DetailsModel
+@{
+    ViewData["Title"] = "Payment Details";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h2 class="card-title mb-0">Payment Details</h2>
+                    <a asp-page="Index" class="btn btn-secondary btn-sm">
+                        <i class="fas fa-arrow-left me-1"></i>Back to List
+                    </a>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Bill Number:</label>
+                                <div class="col-sm-7">
+                                    <p class="form-control-plaintext">@Model.Payment.BillNo</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Mobile Number:</label>
+                                <div class="col-sm-7">
+                                    <p class="form-control-plaintext">@Model.Payment.MobileNo</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Payment Date:</label>
+                                <div class="col-sm-7">
+                                    <p class="form-control-plaintext">@Model.Payment.PaymentDate.ToString("MM/dd/yyyy")</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Total Amount:</label>
+                                <div class="col-sm-7">
+                                    <p class="form-control-plaintext">@Model.Payment.TotalAmount.ToString("C")</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Paid Amount:</label>
+                                <div class="col-sm-7">
+                                    <p class="form-control-plaintext">@Model.Payment.PaidAmount.ToString("C")</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Due Amount:</label>
+                                <div class="col-sm-7">
+                                    <span class="badge @(Model.Payment.DueAmount > 0 ? "bg-warning text-dark" : "bg-success") fs-6">
+                                        @Model.Payment.DueAmount.ToString("C")
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Status:</label>
+                                <div class="col-sm-7">
+                                    <span class="badge @(Model.Payment.IsActive ? "bg-success" : "bg-danger")">
+                                        @(Model.Payment.IsActive ? "Active" : "Inactive")
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="row mb-3">
+                                <label class="col-sm-5 col-form-label fw-bold">Created Date:</label>
+                                <div class="col-sm-7">
+                                    <p class="form-control-plaintext">@Model.Payment.CreatedDate.ToString("g")</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <a asp-page="Edit" asp-route-id="@Model.Payment.Id" class="btn btn-warning">
+                            <i class="fas fa-edit me-1"></i>Edit
+                        </a>
+                        <a asp-page="Delete" asp-route-id="@Model.Payment.Id" class="btn btn-danger">
+                            <i class="fas fa-trash me-1"></i>Delete
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
