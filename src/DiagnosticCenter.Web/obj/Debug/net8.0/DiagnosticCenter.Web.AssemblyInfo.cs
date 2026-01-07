@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DiagnosticCenter.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b31ad2eb5d62efd75a8e4fd28421a835d0e5726")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee44072a5b54cb4d666930ebe614c0166d961133")]
 [assembly: System.Reflection.AssemblyProductAttribute("DiagnosticCenter.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DiagnosticCenter.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

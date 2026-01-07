@@ -2,22 +2,22 @@
 <CoverageSession>
   <Summary numSequencePoints="1034" visitedSequencePoints="510" numBranchPoints="36" visitedBranchPoints="20" sequenceCoverage="49.32" branchCoverage="55.55" maxCyclomaticComplexity="58" minCyclomaticComplexity="44" visitedClasses="47" numClasses="86" visitedMethods="91" numMethods="130" />
   <Modules>
-    <Module hash="426D1A69-8D45-41B2-9B2B-7EC1299DC03C">
+    <Module hash="8A1EE97F-4CF2-41FE-B04B-0049082DB31C">
       <ModulePath>DiagnosticCenter.Infrastructure.dll</ModulePath>
-      <ModuleTime>2026-01-07T06:28:32</ModuleTime>
+      <ModuleTime>2026-01-07T07:08:59</ModuleTime>
       <ModuleName>DiagnosticCenter.Infrastructure</ModuleName>
       <Files>
-        <File uid="1" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/PaymentRepository.cs" />
-        <File uid="2" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/TestEntryRepository.cs" />
-        <File uid="3" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/TestSetupRepository.cs" />
-        <File uid="4" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/TestTypeRepository.cs" />
-        <File uid="5" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Extensions/ServiceCollectionExtensions.cs" />
-        <File uid="6" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/ApplicationDbContext.cs" />
-        <File uid="7" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/PaymentConfiguration.cs" />
-        <File uid="8" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestEntryConfiguration.cs" />
-        <File uid="9" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestEntryItemConfiguration.cs" />
-        <File uid="10" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestSetupConfiguration.cs" />
-        <File uid="11" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestTypeConfiguration.cs" />
+        <File uid="1" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Repositories/PaymentRepository.cs" />
+        <File uid="2" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Repositories/TestEntryRepository.cs" />
+        <File uid="3" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Repositories/TestSetupRepository.cs" />
+        <File uid="4" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Repositories/TestTypeRepository.cs" />
+        <File uid="5" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Extensions/ServiceCollectionExtensions.cs" />
+        <File uid="6" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Data/ApplicationDbContext.cs" />
+        <File uid="7" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Data/Configurations/PaymentConfiguration.cs" />
+        <File uid="8" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestEntryConfiguration.cs" />
+        <File uid="9" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestEntryItemConfiguration.cs" />
+        <File uid="10" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestSetupConfiguration.cs" />
+        <File uid="11" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestTypeConfiguration.cs" />
       </Files>
       <Classes>
         <Class>
@@ -1172,9 +1172,9 @@
               <Name>System.Void DiagnosticCenter.Infrastructure.Data.ApplicationDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;DiagnosticCenter.Infrastructure.Data.ApplicationDbContext&gt;)</Name>
               <FileRef uid="6" />
               <SequencePoints>
-                <SequencePoint vc="10" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="6" />
-                <SequencePoint vc="10" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="6" />
-                <SequencePoint vc="10" uspid="12" ordinal="2" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="55" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="55" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="55" uspid="12" ordinal="2" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="6" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="10" ec="1" el="12" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
@@ -1410,16 +1410,16 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="92E8F8AA-C16B-45DD-88C7-C92DA7A3C2B0">
+    <Module hash="A8B74C82-25A3-4A4D-BDDB-0D4C12458720">
       <ModulePath>DiagnosticCenter.Application.dll</ModulePath>
-      <ModuleTime>2026-01-07T06:28:32</ModuleTime>
+      <ModuleTime>2026-01-07T07:08:59</ModuleTime>
       <ModuleName>DiagnosticCenter.Application</ModuleName>
       <Files>
-        <File uid="12" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/Services/PaymentService.cs" />
-        <File uid="13" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/Services/TestEntryService.cs" />
-        <File uid="14" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/Services/TestSetupService.cs" />
-        <File uid="15" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/Services/TestTypeService.cs" />
-        <File uid="16" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/Extensions/ServiceCollectionExtensions.cs" />
+        <File uid="12" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/Services/PaymentService.cs" />
+        <File uid="13" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/Services/TestEntryService.cs" />
+        <File uid="14" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/Services/TestSetupService.cs" />
+        <File uid="15" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/Services/TestTypeService.cs" />
+        <File uid="16" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/Extensions/ServiceCollectionExtensions.cs" />
       </Files>
       <Classes>
         <Class>
@@ -2374,20 +2374,20 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="E597437E-7B24-4CCD-8669-B2007BB684F7">
+    <Module hash="63D06E7D-7623-4E24-8CEE-6AE762E2EF67">
       <ModulePath>DiagnosticCenter.Domain.dll</ModulePath>
-      <ModuleTime>2026-01-07T06:28:32</ModuleTime>
+      <ModuleTime>2026-01-07T07:08:59</ModuleTime>
       <ModuleName>DiagnosticCenter.Domain</ModuleName>
       <Files>
-        <File uid="17" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Exceptions/DuplicateEntityException.cs" />
-        <File uid="18" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Exceptions/EntityNotFoundException.cs" />
-        <File uid="19" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Entities/BaseEntity.cs" />
-        <File uid="20" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Entities/Payment.cs" />
-        <File uid="21" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Entities/TestEntry.cs" />
-        <File uid="22" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Entities/TestEntryItem.cs" />
-        <File uid="23" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Entities/TestSetup.cs" />
-        <File uid="24" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Entities/TestType.cs" />
-        <File uid="25" fullPath="/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/Entities/User.cs" />
+        <File uid="17" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Exceptions/DuplicateEntityException.cs" />
+        <File uid="18" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Exceptions/EntityNotFoundException.cs" />
+        <File uid="19" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Entities/BaseEntity.cs" />
+        <File uid="20" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Entities/Payment.cs" />
+        <File uid="21" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Entities/TestEntry.cs" />
+        <File uid="22" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Entities/TestEntryItem.cs" />
+        <File uid="23" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Entities/TestSetup.cs" />
+        <File uid="24" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Entities/TestType.cs" />
+        <File uid="25" fullPath="/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/Entities/User.cs" />
       </Files>
       <Classes>
         <Class>

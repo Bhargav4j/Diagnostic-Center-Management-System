@@ -330,3 +330,4 @@
 /modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/Tests/obj/Debug/net8.0/Tests.csproj.Up2Date
 /modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/Tests/obj/Debug/net8.0/Tests.genruntimeconfig.cache
 /modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/Tests/obj/Debug/net8.0/ref/Tests.dll
+/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/Tests/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll

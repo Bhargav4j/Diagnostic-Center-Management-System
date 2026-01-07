@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.4932" branch-rate="0.5555" version="1.9" timestamp="1767767312" lines-covered="510" lines-valid="1034" branches-covered="20" branches-valid="36">
+<coverage line-rate="0.4932" branch-rate="0.5555" version="1.9" timestamp="1767769739" lines-covered="510" lines-valid="1034" branches-covered="20" branches-valid="36">
   <sources>
-    <source>/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/</source>
+    <source>/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/</source>
   </sources>
   <packages>
     <package name="DiagnosticCenter.Infrastructure" line-rate="0.265" branch-rate="0" complexity="58">
@@ -1369,9 +1369,9 @@
             </method>
             <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;DiagnosticCenter.Infrastructure.Data.ApplicationDbContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="10" branch="False" />
-                <line number="11" hits="10" branch="False" />
-                <line number="12" hits="10" branch="False" />
+                <line number="10" hits="55" branch="False" />
+                <line number="11" hits="55" branch="False" />
+                <line number="12" hits="55" branch="False" />
               </lines>
             </method>
           </methods>
@@ -1385,9 +1385,9 @@
             <line number="22" hits="1" branch="False" />
             <line number="24" hits="1" branch="False" />
             <line number="25" hits="1" branch="False" />
-            <line number="10" hits="10" branch="False" />
-            <line number="11" hits="10" branch="False" />
-            <line number="12" hits="10" branch="False" />
+            <line number="10" hits="55" branch="False" />
+            <line number="11" hits="55" branch="False" />
+            <line number="12" hits="55" branch="False" />
           </lines>
         </class>
         <class name="DiagnosticCenter.Infrastructure.Data.Configurations.PaymentConfiguration" filename="DiagnosticCenter.Infrastructure/Data/Configurations/PaymentConfiguration.cs" line-rate="1" branch-rate="1" complexity="1">
