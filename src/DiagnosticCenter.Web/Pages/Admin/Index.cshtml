@@ -1,0 +1,22 @@
+@page
+@model DiagnosticCenter.Web.Pages.Admin.IndexModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container">
+    <h2>Admin Dashboard</h2>
+    <p>Welcome, Administrator!</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Test Types</h5>
+                    <p class="card-text">Manage test types</p>
+                    <a asp-page="/Admin/TestType/Index" class="btn btn-primary">Manage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

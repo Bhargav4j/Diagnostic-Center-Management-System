@@ -1,0 +1,69 @@
+@page
+@model DiagnosticCenter.Web.Pages.Admin.TestType.IndexModel
+@{
+    ViewData["Title"] = "Test Types";
+}
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Test Types</h2>
+        <a asp-page="Create" class="btn btn-primary">Add New Test Type</a>
+    </div>
+
+    @if (Model.SuccessMessage != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @Model.SuccessMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (Model.ErrorMessage != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @Model.ErrorMessage
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="card">
+        <div class="card-body">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Created Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.TestTypes != null && Model.TestTypes.Any())
+                    {
+                        @foreach (var testType in Model.TestTypes)
+                        {
+                            <tr>
+                                <td>@testType.Id</td>
+                                <td>@testType.Name</td>
+                                <td>@testType.Description</td>
+                                <td>@testType.CreatedDate.ToLocalTime().ToString("yyyy-MM-dd")</td>
+                                <td>
+                                    <a asp-page="Details" asp-route-id="@testType.Id" class="btn btn-sm btn-info">Details</a>
+                                    <a asp-page="Edit" asp-route-id="@testType.Id" class="btn btn-sm btn-warning">Edit</a>
+                                    <a asp-page="Delete" asp-route-id="@testType.Id" class="btn btn-sm btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center">No test types found</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
