@@ -14,3 +14,8 @@
 /modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/obj/Debug/net8.0/refint/DiagnosticCenter.Application.dll
 /modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.pdb
 /modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/obj/Debug/net8.0/ref/DiagnosticCenter.Application.dll
+/modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/bin/Debug/net8.0/DiagnosticCenter.Domain.deps.json
+/modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/bin/Debug/net8.0/DiagnosticCenter.Domain.runtimeconfig.json
+/modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/bin/Debug/net8.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/bin/Debug/net8.0/xunit.runner.reporters.netcoreapp10.dll
+/modernize-data/studio-data/TNT1001/APP2811/transformed-code/929/studio-workspace/DiagnosticCenter07cmp/src/DiagnosticCenter.Application/bin/Debug/net8.0/xunit.runner.utility.netcoreapp10.dll
