@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "K8epLjhhv/OgQXRHspoGK4Orcf7K9FiGCtz9eAoekGo=",
+  "Source": "DiagnosticCenter.Web",
+  "BasePath": "_content/DiagnosticCenter.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DiagnosticCenter.Web/wwwroot",
+      "Source": "DiagnosticCenter.Web",
+      "ContentRoot": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/wwwroot/",
+      "BasePath": "_content/DiagnosticCenter.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
