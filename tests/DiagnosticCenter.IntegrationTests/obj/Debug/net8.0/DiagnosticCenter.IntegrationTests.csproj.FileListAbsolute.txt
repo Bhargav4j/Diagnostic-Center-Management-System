@@ -469,3 +469,4 @@
 /modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/obj/Debug/net8.0/DiagnosticCenter.IntegrationTests.pdb
 /modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/obj/Debug/net8.0/DiagnosticCenter.IntegrationTests.genruntimeconfig.cache
 /modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/obj/Debug/net8.0/ref/DiagnosticCenter.IntegrationTests.dll
+/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/bin/Debug/net8.0/CoverletSourceRootsMapping_DiagnosticCenter.IntegrationTests

@@ -4917,7 +4917,7 @@
     ]
   },
   "packageFolders": {
-    "/home/studioai/.nuget/packages/": {}
+    "/home/coder/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4925,11 +4925,11 @@
       "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
       "projectName": "DiagnosticCenter.Web",
       "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
-      "packagesPath": "/home/studioai/.nuget/packages/",
+      "packagesPath": "/home/coder/.nuget/packages/",
       "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/studioai/.nuget/NuGet/NuGet.Config"
+        "/home/coder/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5007,7 +5007,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

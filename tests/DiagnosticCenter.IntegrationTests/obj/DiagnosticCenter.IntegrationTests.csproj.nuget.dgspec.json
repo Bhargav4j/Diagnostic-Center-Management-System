@@ -10,11 +10,11 @@
         "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
         "projectName": "DiagnosticCenter.Application",
         "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
-        "packagesPath": "/home/studioai/.nuget/packages/",
+        "packagesPath": "/home/coder/.nuget/packages/",
         "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/studioai/.nuget/NuGet/NuGet.Config"
+          "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -86,11 +86,11 @@
         "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj",
         "projectName": "DiagnosticCenter.Domain",
         "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj",
-        "packagesPath": "/home/studioai/.nuget/packages/",
+        "packagesPath": "/home/coder/.nuget/packages/",
         "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/studioai/.nuget/NuGet/NuGet.Config"
+          "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -150,11 +150,11 @@
         "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj",
         "projectName": "DiagnosticCenter.Infrastructure",
         "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj",
-        "packagesPath": "/home/studioai/.nuget/packages/",
+        "packagesPath": "/home/coder/.nuget/packages/",
         "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/studioai/.nuget/NuGet/NuGet.Config"
+          "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -229,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -239,11 +239,11 @@
         "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
         "projectName": "DiagnosticCenter.Web",
         "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
-        "packagesPath": "/home/studioai/.nuget/packages/",
+        "packagesPath": "/home/coder/.nuget/packages/",
         "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/studioai/.nuget/NuGet/NuGet.Config"
+          "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -321,7 +321,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -331,11 +331,11 @@
         "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj",
         "projectName": "DiagnosticCenter.IntegrationTests",
         "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj",
-        "packagesPath": "/home/studioai/.nuget/packages/",
+        "packagesPath": "/home/coder/.nuget/packages/",
         "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/studioai/.nuget/NuGet/NuGet.Config"
+          "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -387,6 +387,12 @@
               "target": "Package",
               "version": "[17.9.0, )"
             },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.6.6, )"
@@ -414,7 +420,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -122,3 +122,4 @@
 /modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
 /modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/CoverletSourceRootsMapping_DiagnosticCenter.UnitTests
