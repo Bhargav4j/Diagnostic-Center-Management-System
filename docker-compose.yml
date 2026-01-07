@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  comp-diagnostic-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: comp-diagnostic-app:latest
+    container_name: comp-diagnostic-app
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80
+      - TZ=UTC
+      # Database connection (configure as needed)
+      - ConnectionStrings__DefaultConnection=${DB_CONNECTION_STRING:-Server=db-host;Database=CompDiagnostic;User Id=sa;Password=YourPassword123;}
+      # External service endpoints
+      - ExternalServices__ApiUrl=${EXTERNAL_API_URL:-https://api.example.com}
+      - ExternalServices__ApiKey=${EXTERNAL_API_KEY:-your-api-key}
+    volumes:
+      - ./logs:/app/logs
+      - ./appsettings:/app/appsettings:ro
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:80/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  logs:
+  appsettings:

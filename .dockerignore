@@ -1,0 +1,45 @@
+# Build artifacts
+bin/
+obj/
+
+# IDE and editor files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+README.md
+LICENSE
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Application settings (keep only appsettings.json)
+appsettings.Development.json
+appsettings.Local.json
+launchSettings.json
+
+# Logs
+logs/
+*.log
