@@ -1,0 +1,57 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.Payment.DetailsModel
+@{
+    ViewData["Title"] = "Payment Details";
+}
+
+<div class="container mt-4">
+    <h2>Payment Details</h2>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+
+    @if (Model.Payment != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">ID</dt>
+                    <dd class="col-sm-9">@Model.Payment.Id</dd>
+
+                    <dt class="col-sm-3">Test Entry (Bill No)</dt>
+                    <dd class="col-sm-9">@Model.Payment.TestEntryBillNo</dd>
+
+                    <dt class="col-sm-3">Amount</dt>
+                    <dd class="col-sm-9">@Model.Payment.Amount.ToString("C")</dd>
+
+                    <dt class="col-sm-3">Payment Date</dt>
+                    <dd class="col-sm-9">@Model.Payment.PaymentDate.ToString("D")</dd>
+
+                    <dt class="col-sm-3">Payment Mode</dt>
+                    <dd class="col-sm-9">@Model.Payment.PaymentMode</dd>
+
+                    @if (!string.IsNullOrEmpty(Model.Payment.Notes))
+                    {
+                        <dt class="col-sm-3">Notes</dt>
+                        <dd class="col-sm-9">@Model.Payment.Notes</dd>
+                    }
+
+                    <dt class="col-sm-3">Created</dt>
+                    <dd class="col-sm-9">@Model.Payment.CreatedDate.ToString("g")</dd>
+
+                    @if (Model.Payment.ModifiedDate.HasValue)
+                    {
+                        <dt class="col-sm-3">Modified</dt>
+                        <dd class="col-sm-9">@Model.Payment.ModifiedDate.Value.ToString("g")</dd>
+                    }
+                </dl>
+            </div>
+            <div class="card-footer">
+                <a asp-page="./Edit" asp-route-id="@Model.Payment.Id" class="btn btn-primary">Edit</a>
+                <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    }
+</div>

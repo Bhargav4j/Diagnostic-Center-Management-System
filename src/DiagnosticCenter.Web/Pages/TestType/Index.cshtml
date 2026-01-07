@@ -1,0 +1,60 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestType.IndexModel
+@{
+    ViewData["Title"] = "Test Types";
+}
+
+<div class="container mt-4">
+    <h2>Test Types</h2>
+
+    <div class="mb-3">
+        <a asp-page="./Create" class="btn btn-primary">Create New Test Type</a>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+
+    @if (Model.TestTypes.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Type Name</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var testType in Model.TestTypes)
+                {
+                    <tr>
+                        <td>@testType.Id</td>
+                        <td>@testType.Name</td>
+                        <td>
+                            @if (testType.IsActive)
+                            {
+                                <span class="badge bg-success">Active</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Inactive</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-page="./Details" asp-route-id="@testType.Id" class="btn btn-sm btn-info">Details</a>
+                            <a asp-page="./Edit" asp-route-id="@testType.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-page="./Delete" asp-route-id="@testType.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info">No test types found. Create one to get started.</div>
+    }
+</div>

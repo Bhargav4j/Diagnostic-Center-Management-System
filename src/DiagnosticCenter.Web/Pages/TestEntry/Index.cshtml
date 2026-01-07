@@ -1,0 +1,93 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestEntry.IndexModel
+@{
+    ViewData["Title"] = "Test Entries";
+}
+
+<div class="container mt-4">
+    <h2>Test Entries</h2>
+
+    <div class="mb-3">
+        <a asp-page="./Create" class="btn btn-primary">Create New Test Entry</a>
+        <a asp-page="./UnpaidEntries" class="btn btn-warning">View Unpaid Entries</a>
+    </div>
+
+    <div class="mb-3">
+        <form method="get" class="row g-3">
+            <div class="col-auto">
+                <input type="text" name="searchTerm" class="form-control" placeholder="Search by patient name or bill no" value="@Model.SearchTerm" />
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-secondary">Search</button>
+            </div>
+            @if (!string.IsNullOrEmpty(Model.SearchTerm))
+            {
+                <div class="col-auto">
+                    <a asp-page="./Index" class="btn btn-outline-secondary">Clear</a>
+                </div>
+            }
+        </form>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+
+    @if (Model.TestEntries.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Bill No</th>
+                    <th>Patient Name</th>
+                    <th>Test</th>
+                    <th>Test Date</th>
+                    <th>Total Fee</th>
+                    <th>Paid</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var entry in Model.TestEntries)
+                {
+                    <tr>
+                        <td>@entry.BillNo</td>
+                        <td>@entry.PatientName</td>
+                        <td>@entry.TestSetupName</td>
+                        <td>@entry.TestDate.ToString("d")</td>
+                        <td>@entry.TotalFee.ToString("C")</td>
+                        <td>
+                            @if (entry.IsPaid)
+                            {
+                                <span class="badge bg-success">Paid</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Unpaid</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-page="./Details" asp-route-id="@entry.Id" class="btn btn-sm btn-info">Details</a>
+                            <a asp-page="./Edit" asp-route-id="@entry.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-page="./Delete" asp-route-id="@entry.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            @if (!string.IsNullOrEmpty(Model.SearchTerm))
+            {
+                <text>No test entries found matching "@Model.SearchTerm".</text>
+            }
+            else
+            {
+                <text>No test entries found. Create one to get started.</text>
+            }
+        </div>
+    }
+</div>

@@ -1,0 +1,44 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestSetup.IndexModel
+@{
+    ViewData["Title"] = "Test Setup";
+}
+
+<h1>Test Setup</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
+</p>
+
+@if (Model.TestSetups != null && Model.TestSetups.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Fee</th>
+                <th>Type</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TestSetups)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Fee.ToString("C")</td>
+                    <td>@item.TypeName</td>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No test setups found.</p>
+}

@@ -1,0 +1,76 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.TestEntry.DetailsModel
+@{
+    ViewData["Title"] = "Test Entry Details";
+}
+
+<div class="container mt-4">
+    <h2>Test Entry Details</h2>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+
+    @if (Model.TestEntry != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Bill Number</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.BillNo</dd>
+
+                    <dt class="col-sm-3">Patient Name</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.PatientName</dd>
+
+                    <dt class="col-sm-3">Age</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.PatientAge years</dd>
+
+                    <dt class="col-sm-3">Gender</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.PatientGender</dd>
+
+                    @if (!string.IsNullOrEmpty(Model.TestEntry.ContactNumber))
+                    {
+                        <dt class="col-sm-3">Contact Number</dt>
+                        <dd class="col-sm-9">@Model.TestEntry.ContactNumber</dd>
+                    }
+
+                    <dt class="col-sm-3">Test</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.TestSetupName</dd>
+
+                    <dt class="col-sm-3">Test Date</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.TestDate.ToString("D")</dd>
+
+                    <dt class="col-sm-3">Total Fee</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.TotalFee.ToString("C")</dd>
+
+                    <dt class="col-sm-3">Payment Status</dt>
+                    <dd class="col-sm-9">
+                        @if (Model.TestEntry.IsPaid)
+                        {
+                            <span class="badge bg-success">Paid</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Unpaid</span>
+                        }
+                    </dd>
+
+                    <dt class="col-sm-3">Created</dt>
+                    <dd class="col-sm-9">@Model.TestEntry.CreatedDate.ToString("g")</dd>
+
+                    @if (Model.TestEntry.ModifiedDate.HasValue)
+                    {
+                        <dt class="col-sm-3">Modified</dt>
+                        <dd class="col-sm-9">@Model.TestEntry.ModifiedDate.Value.ToString("g")</dd>
+                    }
+                </dl>
+            </div>
+            <div class="card-footer">
+                <a asp-page="./Edit" asp-route-id="@Model.TestEntry.Id" class="btn btn-primary">Edit</a>
+                <a asp-page="/Payment/Index" asp-route-testEntryId="@Model.TestEntry.Id" class="btn btn-success">View Payments</a>
+                <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    }
+</div>

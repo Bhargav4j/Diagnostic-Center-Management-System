@@ -1,0 +1,55 @@
+@page
+@model DiagnosticCenter.Web.Pages.Payment.IndexModel
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<div class="container mt-4">
+    <h2>Payments</h2>
+
+    <div class="mb-3">
+        <a asp-page="./Create" class="btn btn-primary">Create New Payment</a>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+
+    @if (Model.Payments.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Test Entry (Bill No)</th>
+                    <th>Amount</th>
+                    <th>Payment Date</th>
+                    <th>Payment Mode</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var payment in Model.Payments)
+                {
+                    <tr>
+                        <td>@payment.Id</td>
+                        <td>@payment.TestEntryBillNo</td>
+                        <td>@payment.Amount.ToString("C")</td>
+                        <td>@payment.PaymentDate.ToString("d")</td>
+                        <td>@payment.PaymentMode</td>
+                        <td>
+                            <a asp-page="./Details" asp-route-id="@payment.Id" class="btn btn-sm btn-info">Details</a>
+                            <a asp-page="./Edit" asp-route-id="@payment.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-page="./Delete" asp-route-id="@payment.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info">No payments found. Create one to get started.</div>
+    }
+</div>

@@ -1,0 +1,41 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestType.CreateModel
+@{
+    ViewData["Title"] = "Create Test Type";
+}
+
+<div class="container mt-4">
+    <h2>Create Test Type</h2>
+
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger">@Model.ErrorMessage</div>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+    {
+        <div class="alert alert-success">@Model.SuccessMessage</div>
+    }
+
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Type Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input asp-for="IsActive" class="form-check-input" type="checkbox" checked />
+            <label asp-for="IsActive" class="form-check-label">Active</label>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
