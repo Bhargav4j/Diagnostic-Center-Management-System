@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DiagnosticCenter.IntegrationTests
-build_property.ProjectDir = /modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/
+build_property.ProjectDir = /modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/tests/DiagnosticCenter.IntegrationTests/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

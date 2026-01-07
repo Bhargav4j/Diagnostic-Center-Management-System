@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj": {}
+    "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj": {}
   },
   "projects": {
-    "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj": {
+    "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
+        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
         "projectName": "DiagnosticCenter.Application",
-        "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
-        "packagesPath": "/home/coder/.nuget/packages/",
-        "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/obj/",
+        "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
+        "packagesPath": "/home/studioai/.nuget/packages/",
+        "outputPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coder/.nuget/NuGet/NuGet.Config"
+          "/home/studioai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj": {
-                "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj"
+              "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj"
               }
             }
           }
@@ -76,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj": {
+    "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj",
+        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj",
         "projectName": "DiagnosticCenter.Domain",
-        "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj",
-        "packagesPath": "/home/coder/.nuget/packages/",
-        "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/obj/",
+        "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj",
+        "packagesPath": "/home/studioai/.nuget/packages/",
+        "outputPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coder/.nuget/NuGet/NuGet.Config"
+          "/home/studioai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -140,21 +140,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj": {
+    "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj",
+        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj",
         "projectName": "DiagnosticCenter.Infrastructure",
-        "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj",
-        "packagesPath": "/home/coder/.nuget/packages/",
-        "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/obj/",
+        "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj",
+        "packagesPath": "/home/studioai/.nuget/packages/",
+        "outputPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coder/.nuget/NuGet/NuGet.Config"
+          "/home/studioai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -166,11 +166,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj": {
-                "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj"
+              "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj"
               },
-              "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj": {
-                "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj"
+              "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Domain/DiagnosticCenter.Domain.csproj"
               }
             }
           }
@@ -229,21 +229,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj": {
+    "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
+        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
         "projectName": "DiagnosticCenter.Web",
-        "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
-        "packagesPath": "/home/coder/.nuget/packages/",
-        "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/obj/",
+        "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj",
+        "packagesPath": "/home/studioai/.nuget/packages/",
+        "outputPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coder/.nuget/NuGet/NuGet.Config"
+          "/home/studioai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -255,11 +255,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj": {
-                "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj"
+              "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj"
               },
-              "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj": {
-                "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj"
+              "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj"
               }
             }
           }
@@ -321,21 +321,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj": {
+    "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj",
+        "projectUniqueName": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj",
         "projectName": "DiagnosticCenter.IntegrationTests",
-        "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj",
-        "packagesPath": "/home/coder/.nuget/packages/",
-        "outputPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/tests/DiagnosticCenter.IntegrationTests/obj/",
+        "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/tests/DiagnosticCenter.IntegrationTests/DiagnosticCenter.IntegrationTests.csproj",
+        "packagesPath": "/home/studioai/.nuget/packages/",
+        "outputPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/tests/DiagnosticCenter.IntegrationTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coder/.nuget/NuGet/NuGet.Config"
+          "/home/studioai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -347,11 +347,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj": {
-                "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj"
+              "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Infrastructure/DiagnosticCenter.Infrastructure.csproj"
               },
-              "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj": {
-                "projectPath": "/modernize-data/studio-data/TNT1001/APP2781/transformed-code/913/studio-workspace/Comp-Diagnostic007/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj"
+              "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj": {
+                "projectPath": "/modernize-data/studio-data/TNT1001/APP2785/transformed-code/917/studio-workspace/Comp-Diagnostic-transformed/src/DiagnosticCenter.Web/DiagnosticCenter.Web.csproj"
               }
             }
           }
@@ -420,7 +420,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coder/dotnet/dotnet8/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

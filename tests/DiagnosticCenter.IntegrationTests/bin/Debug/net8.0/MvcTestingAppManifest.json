@@ -1,6 +1,6 @@
 {
-  "DiagnosticCenter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2781\/transformed-code\/913\/studio-workspace\/Comp-Diagnostic007\/src\/DiagnosticCenter.Application",
-  "DiagnosticCenter.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2781\/transformed-code\/913\/studio-workspace\/Comp-Diagnostic007\/src\/DiagnosticCenter.Domain",
-  "DiagnosticCenter.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2781\/transformed-code\/913\/studio-workspace\/Comp-Diagnostic007\/src\/DiagnosticCenter.Infrastructure",
-  "DiagnosticCenter.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2781\/transformed-code\/913\/studio-workspace\/Comp-Diagnostic007\/src\/DiagnosticCenter.Web"
+  "DiagnosticCenter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2785\/transformed-code\/917\/studio-workspace\/Comp-Diagnostic-transformed\/src\/DiagnosticCenter.Application",
+  "DiagnosticCenter.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2785\/transformed-code\/917\/studio-workspace\/Comp-Diagnostic-transformed\/src\/DiagnosticCenter.Domain",
+  "DiagnosticCenter.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2785\/transformed-code\/917\/studio-workspace\/Comp-Diagnostic-transformed\/src\/DiagnosticCenter.Infrastructure",
+  "DiagnosticCenter.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/modernize-data\/studio-data\/TNT1001\/APP2785\/transformed-code\/917\/studio-workspace\/Comp-Diagnostic-transformed\/src\/DiagnosticCenter.Web"
 }
