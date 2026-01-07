@@ -1,0 +1,4417 @@
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/PaymentRepository.cs
+FN:13,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.PaymentRepository>)
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.PaymentRepository>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+BRDA:16,11,0,0
+BRDA:16,11,1,0
+BRDA:17,33,0,0
+BRDA:17,33,1,0
+FN:54,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<AddAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<AddAsync>d__5::MoveNext()
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,0
+FN:83,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<DeleteAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<DeleteAsync>d__7::MoveNext()
+DA:84,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+BRDA:88,213,0,0
+BRDA:88,213,1,0
+FN:102,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<ExistsAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<ExistsAsync>d__8::MoveNext()
+DA:103,0
+DA:105,0
+DA:106,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:113,0
+FN:20,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<GetAllAsync>d__3::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:36,0
+FN:38,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<GetByIdAsync>d__4::MoveNext()
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+FN:115,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<GetByTestEntryIdAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<GetByTestEntryIdAsync>d__9::MoveNext()
+DA:116,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:131,0
+FN:69,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<UpdateAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.PaymentRepository/<UpdateAsync>d__6::MoveNext()
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+LF:85
+LH:0
+BRF:6
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/ReportRepository.cs
+FN:13,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.ReportRepository>)
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.ReportRepository>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+BRDA:16,11,0,0
+BRDA:16,11,1,0
+BRDA:17,33,0,0
+BRDA:17,33,1,0
+FN:54,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<AddAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<AddAsync>d__5::MoveNext()
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,0
+FN:83,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<DeleteAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<DeleteAsync>d__7::MoveNext()
+DA:84,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+BRDA:88,213,0,0
+BRDA:88,213,1,0
+FN:102,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<ExistsAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<ExistsAsync>d__8::MoveNext()
+DA:103,0
+DA:105,0
+DA:106,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:113,0
+FN:20,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<GetAllAsync>d__3::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:36,0
+FN:38,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<GetByIdAsync>d__4::MoveNext()
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+FN:115,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<GetByTestEntryIdAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<GetByTestEntryIdAsync>d__9::MoveNext()
+DA:116,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:131,0
+FN:69,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<UpdateAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.ReportRepository/<UpdateAsync>d__6::MoveNext()
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+LF:85
+LH:0
+BRF:6
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/TestEntryRepository.cs
+FN:13,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository>)
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+BRDA:16,11,0,0
+BRDA:16,11,1,0
+BRDA:17,33,0,0
+BRDA:17,33,1,0
+FN:69,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<AddAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<AddAsync>d__6::MoveNext()
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:82,0
+FN:98,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<DeleteAsync>d__8::MoveNext()
+DA:99,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:114,0
+BRDA:103,213,0,0
+BRDA:103,213,1,0
+FN:116,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<ExistsAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<ExistsAsync>d__9::MoveNext()
+DA:117,0
+DA:119,0
+DA:120,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:127,0
+FN:20,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetAllAsync>d__3::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+FN:53,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetByBillNoAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetByBillNoAsync>d__5::MoveNext()
+DA:54,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,0
+FN:37,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetByIdAsync>d__4::MoveNext()
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+FN:147,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetUnpaidEntriesAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<GetUnpaidEntriesAsync>d__11::MoveNext()
+DA:148,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:163,0
+FN:129,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<SearchAsync>d__10::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<SearchAsync>d__10::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:145,0
+FN:84,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestEntryRepository/<UpdateAsync>d__7::MoveNext()
+DA:85,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:96,0
+LF:107
+LH:0
+BRF:6
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/TestSetupRepository.cs
+FN:13,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository>)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository>)
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+BRDA:16,11,0,0
+BRDA:16,11,1,1
+BRDA:17,33,0,0
+BRDA:17,33,1,1
+FN:54,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<AddAsync>d__5::MoveNext()
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<AddAsync>d__5::MoveNext()
+DA:55,1
+DA:57,1
+DA:58,1
+DA:59,1
+DA:60,1
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,1
+FN:83,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<DeleteAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<DeleteAsync>d__7::MoveNext()
+DA:84,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+BRDA:88,213,0,0
+BRDA:88,213,1,0
+FN:102,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<ExistsAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<ExistsAsync>d__8::MoveNext()
+DA:103,0
+DA:105,0
+DA:106,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:113,0
+FN:115,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<ExistsByNameAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<ExistsByNameAsync>d__9::MoveNext()
+DA:116,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:127,0
+FN:20,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<GetAllAsync>d__3::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:36,0
+FN:38,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<GetByIdAsync>d__4::MoveNext()
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+FN:147,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<GetByTypeIdAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<GetByTypeIdAsync>d__11::MoveNext()
+DA:148,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:163,0
+FN:129,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<SearchAsync>d__10::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<SearchAsync>d__10::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:145,0
+FN:69,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<UpdateAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestSetupRepository/<UpdateAsync>d__6::MoveNext()
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+LF:107
+LH:11
+BRF:6
+BRH:2
+FNF:10
+FNH:2
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/TestTypeRepository.cs
+FN:13,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository>)
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+BRDA:16,11,0,0
+BRDA:16,11,1,0
+BRDA:17,33,0,0
+BRDA:17,33,1,0
+FN:52,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<AddAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<AddAsync>d__5::MoveNext()
+DA:53,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,0
+FN:81,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<DeleteAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<DeleteAsync>d__7::MoveNext()
+DA:82,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:98,0
+BRDA:86,213,0,0
+BRDA:86,213,1,0
+FN:100,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<ExistsAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<ExistsAsync>d__8::MoveNext()
+DA:101,0
+DA:103,0
+DA:104,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:111,0
+FN:20,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<GetAllAsync>d__3::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+FN:37,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<GetByIdAsync>d__4::MoveNext()
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+FN:113,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<SearchAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<SearchAsync>d__9::MoveNext()
+DA:114,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:128,0
+FN:67,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<UpdateAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.TestTypeRepository/<UpdateAsync>d__6::MoveNext()
+DA:68,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:79,0
+LF:82
+LH:0
+BRF:6
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Repositories/UserRepository.cs
+FN:13,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.UserRepository>)
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository::.ctor(DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Infrastructure.Repositories.UserRepository>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+BRDA:16,11,0,0
+BRDA:16,11,1,0
+BRDA:17,33,0,0
+BRDA:17,33,1,0
+FN:67,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<AddAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<AddAsync>d__6::MoveNext()
+DA:68,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:80,0
+FN:96,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<DeleteAsync>d__8::MoveNext()
+DA:97,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:113,0
+BRDA:101,213,0,0
+BRDA:101,213,1,0
+FN:115,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<ExistsAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<ExistsAsync>d__9::MoveNext()
+DA:116,0
+DA:118,0
+DA:119,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:126,0
+FN:128,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<ExistsByEmailAsync>d__10::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<ExistsByEmailAsync>d__10::MoveNext()
+DA:129,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:140,0
+FN:20,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<GetAllAsync>d__3::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<GetAllAsync>d__3::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+FN:52,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<GetByEmailAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<GetByEmailAsync>d__5::MoveNext()
+DA:53,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,0
+FN:37,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<GetByIdAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<GetByIdAsync>d__4::MoveNext()
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+FN:82,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Infrastructure.Repositories.UserRepository/<UpdateAsync>d__7::MoveNext()
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:94,0
+LF:89
+LH:0
+BRF:6
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Extensions/ServiceCollectionExtensions.cs
+FN:14,Microsoft.Extensions.DependencyInjection.IServiceCollection DiagnosticCenter.Infrastructure.Extensions.ServiceCollectionExtensions::AddInfrastructureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection DiagnosticCenter.Infrastructure.Extensions.ServiceCollectionExtensions::AddInfrastructureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+DA:15,0
+DA:16,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+LF:13
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/DiagnosticCenterDbContext.cs
+FN:12,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.User> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_Users()
+FNDA:2,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.User> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_Users()
+DA:13,2
+FN:13,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.TestType> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_TestTypes()
+FNDA:3,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.TestType> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_TestTypes()
+DA:14,3
+FN:14,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.TestSetup> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_TestSetups()
+FNDA:3,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.TestSetup> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_TestSetups()
+DA:15,3
+FN:15,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.TestEntry> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_TestEntries()
+FNDA:2,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.TestEntry> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_TestEntries()
+DA:16,2
+FN:16,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.Payment> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_Payments()
+FNDA:2,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.Payment> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_Payments()
+DA:17,2
+FN:17,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.Report> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_Reports()
+FNDA:2,Microsoft.EntityFrameworkCore.DbSet`1<DiagnosticCenter.Domain.Entities.Report> DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::get_Reports()
+DA:18,2
+FN:20,System.Void DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:21,1
+DA:22,1
+DA:24,1
+DA:25,1
+FN:8,System.Void DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext>)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<DiagnosticCenter.Infrastructure.Data.DiagnosticCenterDbContext>)
+DA:9,1
+DA:10,1
+DA:11,1
+LF:13
+LH:13
+BRF:0
+BRH:0
+FNF:8
+FNH:8
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/PaymentConfiguration.cs
+FN:9,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.PaymentConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.Payment>)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.PaymentConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.Payment>)
+DA:10,1
+DA:11,1
+DA:13,1
+DA:15,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:27,1
+DA:28,1
+DA:29,1
+DA:31,1
+DA:32,1
+DA:33,1
+DA:34,1
+DA:36,1
+DA:37,1
+DA:38,1
+DA:40,1
+DA:41,1
+DA:42,1
+DA:44,1
+DA:45,1
+DA:46,1
+DA:47,1
+DA:48,1
+LF:30
+LH:30
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestEntryConfiguration.cs
+FN:9,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.TestEntryConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.TestEntry>)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.TestEntryConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.TestEntry>)
+DA:10,1
+DA:11,1
+DA:13,1
+DA:15,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:32,1
+DA:33,1
+DA:34,1
+DA:35,1
+DA:37,1
+DA:38,1
+DA:39,1
+DA:41,1
+DA:42,1
+DA:43,1
+DA:45,1
+DA:46,1
+DA:47,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:52,1
+DA:54,1
+DA:55,1
+DA:56,1
+DA:58,1
+DA:59,1
+DA:60,1
+DA:62,1
+DA:63,1
+DA:64,1
+DA:65,1
+DA:67,1
+DA:68,1
+DA:69,1
+DA:70,1
+DA:72,1
+DA:73,1
+DA:74,1
+LF:50
+LH:50
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestSetupConfiguration.cs
+FN:9,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.TestSetupConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.TestSetup>)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.TestSetupConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.TestSetup>)
+DA:10,1
+DA:11,1
+DA:13,1
+DA:15,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:32,1
+DA:33,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:39,1
+DA:40,1
+DA:41,1
+DA:42,1
+DA:44,1
+DA:45,1
+DA:46,1
+DA:47,1
+DA:48,1
+LF:30
+LH:30
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/TestTypeConfiguration.cs
+FN:9,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.TestTypeConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.TestType>)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.TestTypeConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.TestType>)
+DA:10,1
+DA:11,1
+DA:13,1
+DA:15,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:27,1
+DA:28,1
+DA:30,1
+DA:31,1
+DA:32,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:38,1
+LF:22
+LH:22
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Infrastructure/Data/Configurations/UserConfiguration.cs
+FN:9,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.UserConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.User>)
+FNDA:1,System.Void DiagnosticCenter.Infrastructure.Data.Configurations.UserConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<DiagnosticCenter.Domain.Entities.User>)
+DA:10,1
+DA:11,1
+DA:13,1
+DA:15,1
+DA:16,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:31,1
+DA:33,1
+DA:34,1
+DA:36,1
+DA:37,1
+DA:39,1
+DA:40,1
+DA:41,1
+LF:24
+LH:24
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/Services/PaymentService.cs
+FN:15,System.Void DiagnosticCenter.Application.Services.PaymentService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.IPaymentRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.PaymentService>)
+FNDA:0,System.Void DiagnosticCenter.Application.Services.PaymentService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.IPaymentRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.PaymentService>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+BRDA:21,11,0,0
+BRDA:21,11,1,0
+BRDA:22,33,0,0
+BRDA:22,33,1,0
+BRDA:23,55,0,0
+BRDA:23,55,1,0
+FN:56,System.Void DiagnosticCenter.Application.Services.PaymentService/<CreateAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.PaymentService/<CreateAsync>d__6::MoveNext()
+DA:57,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:70,0
+FN:94,System.Void DiagnosticCenter.Application.Services.PaymentService/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.PaymentService/<DeleteAsync>d__8::MoveNext()
+DA:95,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+FN:26,System.Void DiagnosticCenter.Application.Services.PaymentService/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.PaymentService/<GetAllAsync>d__4::MoveNext()
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+FN:41,System.Void DiagnosticCenter.Application.Services.PaymentService/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.PaymentService/<GetByIdAsync>d__5::MoveNext()
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+BRDA:47,214,0,0
+BRDA:47,214,1,0
+FN:108,System.Void DiagnosticCenter.Application.Services.PaymentService/<GetByTestEntryIdAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.PaymentService/<GetByTestEntryIdAsync>d__9::MoveNext()
+DA:109,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:121,0
+FN:72,System.Void DiagnosticCenter.Application.Services.PaymentService/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.PaymentService/<UpdateAsync>d__7::MoveNext()
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:92,0
+BRDA:78,234,0,0
+BRDA:78,234,1,0
+LF:76
+LH:0
+BRF:10
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/Services/TestEntryService.cs
+FN:15,System.Void DiagnosticCenter.Application.Services.TestEntryService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.ITestEntryRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.TestEntryService>)
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.ITestEntryRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.TestEntryService>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+BRDA:21,11,0,0
+BRDA:21,11,1,0
+BRDA:22,33,0,0
+BRDA:22,33,1,0
+BRDA:23,55,0,0
+BRDA:23,55,1,0
+FN:71,System.Void DiagnosticCenter.Application.Services.TestEntryService/<CreateAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<CreateAsync>d__7::MoveNext()
+DA:72,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+FN:109,System.Void DiagnosticCenter.Application.Services.TestEntryService/<DeleteAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<DeleteAsync>d__9::MoveNext()
+DA:110,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:121,0
+FN:26,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetAllAsync>d__4::MoveNext()
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+FN:56,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetByBillNoAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetByBillNoAsync>d__6::MoveNext()
+DA:57,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:62,209,0,0
+BRDA:62,209,1,0
+FN:41,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetByIdAsync>d__5::MoveNext()
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+BRDA:47,214,0,0
+BRDA:47,214,1,0
+FN:138,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetUnpaidEntriesAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<GetUnpaidEntriesAsync>d__11::MoveNext()
+DA:139,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:151,0
+FN:123,System.Void DiagnosticCenter.Application.Services.TestEntryService/<SearchAsync>d__10::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<SearchAsync>d__10::MoveNext()
+DA:124,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:136,0
+FN:87,System.Void DiagnosticCenter.Application.Services.TestEntryService/<UpdateAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestEntryService/<UpdateAsync>d__8::MoveNext()
+DA:88,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:107,0
+BRDA:93,234,0,0
+BRDA:93,234,1,0
+LF:96
+LH:0
+BRF:12
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/Services/TestSetupService.cs
+FN:15,System.Void DiagnosticCenter.Application.Services.TestSetupService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.ITestSetupRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.TestSetupService>)
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.ITestSetupRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.TestSetupService>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+BRDA:21,11,0,0
+BRDA:21,11,1,0
+BRDA:22,33,0,0
+BRDA:22,33,1,0
+BRDA:23,55,0,0
+BRDA:23,55,1,0
+FN:56,System.Void DiagnosticCenter.Application.Services.TestSetupService/<CreateAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService/<CreateAsync>d__6::MoveNext()
+DA:57,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:76,0
+BRDA:62,218,0,0
+BRDA:62,218,1,0
+FN:100,System.Void DiagnosticCenter.Application.Services.TestSetupService/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService/<DeleteAsync>d__8::MoveNext()
+DA:101,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:112,0
+FN:129,System.Void DiagnosticCenter.Application.Services.TestSetupService/<ExistsByNameAsync>d__10::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService/<ExistsByNameAsync>d__10::MoveNext()
+DA:130,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:141,0
+FN:26,System.Void DiagnosticCenter.Application.Services.TestSetupService/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService/<GetAllAsync>d__4::MoveNext()
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+FN:41,System.Void DiagnosticCenter.Application.Services.TestSetupService/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService/<GetByIdAsync>d__5::MoveNext()
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+BRDA:47,214,0,0
+BRDA:47,214,1,0
+FN:114,System.Void DiagnosticCenter.Application.Services.TestSetupService/<SearchAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService/<SearchAsync>d__9::MoveNext()
+DA:115,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:127,0
+FN:78,System.Void DiagnosticCenter.Application.Services.TestSetupService/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestSetupService/<UpdateAsync>d__7::MoveNext()
+DA:79,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:98,0
+BRDA:84,234,0,0
+BRDA:84,234,1,0
+LF:88
+LH:0
+BRF:12
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/Services/TestTypeService.cs
+FN:15,System.Void DiagnosticCenter.Application.Services.TestTypeService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.ITestTypeRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.TestTypeService>)
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestTypeService::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.ITestTypeRepository,AutoMapper.IMapper,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Application.Services.TestTypeService>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+BRDA:21,11,0,0
+BRDA:21,11,1,0
+BRDA:22,33,0,0
+BRDA:22,33,1,0
+BRDA:23,55,0,0
+BRDA:23,55,1,0
+FN:56,System.Void DiagnosticCenter.Application.Services.TestTypeService/<CreateAsync>d__6::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestTypeService/<CreateAsync>d__6::MoveNext()
+DA:57,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:70,0
+FN:94,System.Void DiagnosticCenter.Application.Services.TestTypeService/<DeleteAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestTypeService/<DeleteAsync>d__8::MoveNext()
+DA:95,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+FN:26,System.Void DiagnosticCenter.Application.Services.TestTypeService/<GetAllAsync>d__4::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestTypeService/<GetAllAsync>d__4::MoveNext()
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+FN:41,System.Void DiagnosticCenter.Application.Services.TestTypeService/<GetByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestTypeService/<GetByIdAsync>d__5::MoveNext()
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+BRDA:47,214,0,0
+BRDA:47,214,1,0
+FN:108,System.Void DiagnosticCenter.Application.Services.TestTypeService/<SearchAsync>d__9::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestTypeService/<SearchAsync>d__9::MoveNext()
+DA:109,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:121,0
+FN:72,System.Void DiagnosticCenter.Application.Services.TestTypeService/<UpdateAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Application.Services.TestTypeService/<UpdateAsync>d__7::MoveNext()
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:92,0
+BRDA:78,234,0,0
+BRDA:78,234,1,0
+LF:76
+LH:0
+BRF:10
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/Mappings/MappingProfile.cs
+FN:8,System.Void DiagnosticCenter.Application.Mappings.MappingProfile::.ctor()
+FNDA:0,System.Void DiagnosticCenter.Application.Mappings.MappingProfile::.ctor()
+DA:9,0
+DA:10,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+LF:43
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/Extensions/ServiceCollectionExtensions.cs
+FN:9,Microsoft.Extensions.DependencyInjection.IServiceCollection DiagnosticCenter.Application.Extensions.ServiceCollectionExtensions::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection DiagnosticCenter.Application.Extensions.ServiceCollectionExtensions::AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+DA:10,0
+DA:11,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:18,0
+DA:19,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/DTOs/PaymentDtos.cs
+FN:4,System.Int32 DiagnosticCenter.Application.DTOs.PaymentDto::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.PaymentDto::get_Id()
+DA:5,0
+FN:5,System.Int32 DiagnosticCenter.Application.DTOs.PaymentDto::get_TestEntryId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.PaymentDto::get_TestEntryId()
+DA:6,0
+FN:6,System.String DiagnosticCenter.Application.DTOs.PaymentDto::get_TestEntryBillNo()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.PaymentDto::get_TestEntryBillNo()
+DA:7,0
+FN:7,System.Decimal DiagnosticCenter.Application.DTOs.PaymentDto::get_Amount()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.PaymentDto::get_Amount()
+DA:8,0
+FN:8,System.DateTime DiagnosticCenter.Application.DTOs.PaymentDto::get_PaymentDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.PaymentDto::get_PaymentDate()
+DA:9,0
+FN:9,System.String DiagnosticCenter.Application.DTOs.PaymentDto::get_PaymentMode()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.PaymentDto::get_PaymentMode()
+DA:10,0
+FN:10,System.String DiagnosticCenter.Application.DTOs.PaymentDto::get_Notes()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.PaymentDto::get_Notes()
+DA:11,0
+FN:11,System.DateTime DiagnosticCenter.Application.DTOs.PaymentDto::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.PaymentDto::get_CreatedDate()
+DA:12,0
+FN:12,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.PaymentDto::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.PaymentDto::get_ModifiedDate()
+DA:13,0
+FN:17,System.Int32 DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_TestEntryId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_TestEntryId()
+DA:18,0
+FN:18,System.Decimal DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_Amount()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_Amount()
+DA:19,0
+FN:19,System.DateTime DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_PaymentDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_PaymentDate()
+DA:20,0
+FN:20,System.String DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_PaymentMode()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_PaymentMode()
+DA:21,0
+FN:21,System.String DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_Notes()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.PaymentCreateDto::get_Notes()
+DA:22,0
+FN:26,System.Int32 DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_TestEntryId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_TestEntryId()
+DA:27,0
+FN:27,System.Decimal DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_Amount()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_Amount()
+DA:28,0
+FN:28,System.DateTime DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_PaymentDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_PaymentDate()
+DA:29,0
+FN:29,System.String DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_PaymentMode()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_PaymentMode()
+DA:30,0
+FN:30,System.String DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_Notes()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.PaymentUpdateDto::get_Notes()
+DA:31,0
+LF:19
+LH:0
+BRF:0
+BRH:0
+FNF:19
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/DTOs/TestEntryDtos.cs
+FN:4,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryDto::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryDto::get_Id()
+DA:5,0
+FN:5,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_BillNo()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_BillNo()
+DA:6,0
+FN:6,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_PatientName()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_PatientName()
+DA:7,0
+FN:7,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryDto::get_PatientAge()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryDto::get_PatientAge()
+DA:8,0
+FN:8,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_PatientGender()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_PatientGender()
+DA:9,0
+FN:9,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_ContactNumber()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_ContactNumber()
+DA:10,0
+FN:10,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryDto::get_TestSetupId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryDto::get_TestSetupId()
+DA:11,0
+FN:11,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_TestSetupName()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryDto::get_TestSetupName()
+DA:12,0
+FN:12,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryDto::get_TestDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryDto::get_TestDate()
+DA:13,0
+FN:13,System.Decimal DiagnosticCenter.Application.DTOs.TestEntryDto::get_TotalFee()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.TestEntryDto::get_TotalFee()
+DA:14,0
+FN:14,System.Boolean DiagnosticCenter.Application.DTOs.TestEntryDto::get_IsPaid()
+FNDA:0,System.Boolean DiagnosticCenter.Application.DTOs.TestEntryDto::get_IsPaid()
+DA:15,0
+FN:15,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryDto::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryDto::get_CreatedDate()
+DA:16,0
+FN:16,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.TestEntryDto::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.TestEntryDto::get_ModifiedDate()
+DA:17,0
+FN:21,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_BillNo()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_BillNo()
+DA:22,0
+FN:22,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_PatientName()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_PatientName()
+DA:23,0
+FN:23,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_PatientAge()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_PatientAge()
+DA:24,0
+FN:24,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_PatientGender()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_PatientGender()
+DA:25,0
+FN:25,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_ContactNumber()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_ContactNumber()
+DA:26,0
+FN:26,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_TestSetupId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_TestSetupId()
+DA:27,0
+FN:27,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_TestDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_TestDate()
+DA:28,0
+FN:28,System.Decimal DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_TotalFee()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_TotalFee()
+DA:29,0
+FN:29,System.Boolean DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_IsPaid()
+FNDA:0,System.Boolean DiagnosticCenter.Application.DTOs.TestEntryCreateDto::get_IsPaid()
+DA:30,0
+FN:34,System.String DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_PatientName()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_PatientName()
+DA:35,0
+FN:35,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_PatientAge()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_PatientAge()
+DA:36,0
+FN:36,System.String DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_PatientGender()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_PatientGender()
+DA:37,0
+FN:37,System.String DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_ContactNumber()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_ContactNumber()
+DA:38,0
+FN:38,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_TestSetupId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_TestSetupId()
+DA:39,0
+FN:39,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_TestDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_TestDate()
+DA:40,0
+FN:40,System.Decimal DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_TotalFee()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_TotalFee()
+DA:41,0
+FN:41,System.Boolean DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_IsPaid()
+FNDA:0,System.Boolean DiagnosticCenter.Application.DTOs.TestEntryUpdateDto::get_IsPaid()
+DA:42,0
+LF:30
+LH:0
+BRF:0
+BRH:0
+FNF:30
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/DTOs/TestSetupDtos.cs
+FN:4,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupDto::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupDto::get_Id()
+DA:5,0
+FN:5,System.String DiagnosticCenter.Application.DTOs.TestSetupDto::get_Name()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestSetupDto::get_Name()
+DA:6,0
+FN:6,System.Decimal DiagnosticCenter.Application.DTOs.TestSetupDto::get_Fee()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.TestSetupDto::get_Fee()
+DA:7,0
+FN:7,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupDto::get_TypeId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupDto::get_TypeId()
+DA:8,0
+FN:8,System.String DiagnosticCenter.Application.DTOs.TestSetupDto::get_TypeName()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestSetupDto::get_TypeName()
+DA:9,0
+FN:9,System.Boolean DiagnosticCenter.Application.DTOs.TestSetupDto::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Application.DTOs.TestSetupDto::get_IsActive()
+DA:10,0
+FN:10,System.DateTime DiagnosticCenter.Application.DTOs.TestSetupDto::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.TestSetupDto::get_CreatedDate()
+DA:11,0
+FN:11,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.TestSetupDto::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.TestSetupDto::get_ModifiedDate()
+DA:12,0
+FN:16,System.String DiagnosticCenter.Application.DTOs.TestSetupCreateDto::get_Name()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestSetupCreateDto::get_Name()
+DA:17,0
+FN:17,System.Decimal DiagnosticCenter.Application.DTOs.TestSetupCreateDto::get_Fee()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.TestSetupCreateDto::get_Fee()
+DA:18,0
+FN:18,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupCreateDto::get_TypeId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupCreateDto::get_TypeId()
+DA:19,0
+FN:23,System.String DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_Name()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_Name()
+DA:24,0
+FN:24,System.Decimal DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_Fee()
+FNDA:0,System.Decimal DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_Fee()
+DA:25,0
+FN:25,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_TypeId()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_TypeId()
+DA:26,0
+FN:26,System.Boolean DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Application.DTOs.TestSetupUpdateDto::get_IsActive()
+DA:27,0
+LF:15
+LH:0
+BRF:0
+BRH:0
+FNF:15
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Application/DTOs/TestTypeDtos.cs
+FN:4,System.Int32 DiagnosticCenter.Application.DTOs.TestTypeDto::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Application.DTOs.TestTypeDto::get_Id()
+DA:5,0
+FN:5,System.String DiagnosticCenter.Application.DTOs.TestTypeDto::get_Name()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestTypeDto::get_Name()
+DA:6,0
+FN:6,System.String DiagnosticCenter.Application.DTOs.TestTypeDto::get_Description()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestTypeDto::get_Description()
+DA:7,0
+FN:7,System.Boolean DiagnosticCenter.Application.DTOs.TestTypeDto::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Application.DTOs.TestTypeDto::get_IsActive()
+DA:8,0
+FN:8,System.DateTime DiagnosticCenter.Application.DTOs.TestTypeDto::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Application.DTOs.TestTypeDto::get_CreatedDate()
+DA:9,0
+FN:9,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.TestTypeDto::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Application.DTOs.TestTypeDto::get_ModifiedDate()
+DA:10,0
+FN:14,System.String DiagnosticCenter.Application.DTOs.TestTypeCreateDto::get_Name()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestTypeCreateDto::get_Name()
+DA:15,0
+FN:15,System.String DiagnosticCenter.Application.DTOs.TestTypeCreateDto::get_Description()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestTypeCreateDto::get_Description()
+DA:16,0
+FN:20,System.String DiagnosticCenter.Application.DTOs.TestTypeUpdateDto::get_Name()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestTypeUpdateDto::get_Name()
+DA:21,0
+FN:21,System.String DiagnosticCenter.Application.DTOs.TestTypeUpdateDto::get_Description()
+FNDA:0,System.String DiagnosticCenter.Application.DTOs.TestTypeUpdateDto::get_Description()
+DA:22,0
+FN:22,System.Boolean DiagnosticCenter.Application.DTOs.TestTypeUpdateDto::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Application.DTOs.TestTypeUpdateDto::get_IsActive()
+DA:23,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:11
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Program.cs
+FN:4,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:5,0
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:15,0
+DA:18,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:32,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:46,0
+DA:48,0
+DA:50,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+BRDA:35,282,0,0
+BRDA:35,282,1,0
+LF:41
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Index.cshtml.cs
+FN:21,System.String DiagnosticCenter.Web.Pages.IndexModel::get_Email()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.IndexModel::get_Email()
+DA:22,0
+FN:25,System.String DiagnosticCenter.Web.Pages.IndexModel::get_Password()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.IndexModel::get_Password()
+DA:26,0
+FN:27,System.String DiagnosticCenter.Web.Pages.IndexModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.IndexModel::get_ErrorMessage()
+DA:28,0
+FN:30,System.Void DiagnosticCenter.Web.Pages.IndexModel::OnGet()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.IndexModel::OnGet()
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+BRDA:33,34,0,0
+BRDA:33,34,1,0
+FN:80,Microsoft.AspNetCore.Mvc.IActionResult DiagnosticCenter.Web.Pages.IndexModel::RedirectToHomePage(System.String)
+FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult DiagnosticCenter.Web.Pages.IndexModel::RedirectToHomePage(System.String)
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+BRDA:82,16,0,0
+BRDA:82,29,0,0
+BRDA:82,16,1,0
+BRDA:82,29,1,0
+BRDA:82,42,1,0
+BRDA:82,42,0,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.IndexModel::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.IUserRepository,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.IndexModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.IndexModel::.ctor(DiagnosticCenter.Domain.Interfaces.Repositories.IUserRepository,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.IndexModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:40,System.Void DiagnosticCenter.Web.Pages.IndexModel/<OnPostAsync>d__16::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.IndexModel/<OnPostAsync>d__16::MoveNext()
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:65,0
+DA:66,0
+DA:68,0
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:78,0
+BRDA:42,36,0,0
+BRDA:42,36,1,0
+BRDA:51,230,0,0
+BRDA:51,230,1,0
+BRDA:58,303,0,0
+BRDA:58,303,1,0
+LF:49
+LH:0
+BRF:14
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Index.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.Pages_Index/<ExecuteAsync>d__18::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Pages_Index/<ExecuteAsync>d__18::MoveNext()
+DA:4,0
+DA:14,0
+DA:15,0
+DA:19,0
+BRDA:14,99,0,0
+BRDA:14,99,1,0
+BRDA:19,536,0,0
+BRDA:19,536,1,0
+LF:4
+LH:0
+BRF:4
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/_ViewStart.cshtml
+FN:1,System.Void DiagnosticCenter.Web.Pages.Pages__ViewStart/<ExecuteAsync>d__0::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Pages__ViewStart/<ExecuteAsync>d__0::MoveNext()
+DA:2,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Shared/_Layout.cshtml
+FN:23,System.Void DiagnosticCenter.Web.Pages.Shared.Pages_Shared__Layout/<<ExecuteAsync>b__26_1>d::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Shared.Pages_Shared__Layout/<<ExecuteAsync>b__26_1>d::MoveNext()
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:50,0
+DA:54,0
+BRDA:24,600,0,0
+BRDA:24,600,1,0
+BRDA:24,1168,0,0
+BRDA:24,1168,1,0
+BRDA:24,1386,0,0
+BRDA:27,1444,0,0
+BRDA:28,1850,0,0
+BRDA:28,1850,1,0
+BRDA:28,2418,0,0
+BRDA:28,2418,1,0
+BRDA:27,1444,1,0
+BRDA:36,2629,0,0
+BRDA:37,3035,0,0
+BRDA:37,3035,1,0
+BRDA:36,2629,1,0
+BRDA:42,3247,0,0
+BRDA:43,3654,0,0
+BRDA:43,3654,1,0
+BRDA:43,4224,0,0
+BRDA:43,4224,1,0
+BRDA:42,3247,1,0
+BRDA:50,4812,0,0
+BRDA:50,4812,1,0
+BRDA:24,1386,1,0
+BRDA:54,5425,0,0
+BRDA:54,5425,1,0
+BRDA:54,6050,0,0
+BRDA:54,6050,1,0
+LF:13
+LH:0
+BRF:28
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Create.cshtml.cs
+FN:22,System.String DiagnosticCenter.Web.Pages.TestType.CreateModel::get_Name()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.CreateModel::get_Name()
+DA:23,0
+FN:25,System.Boolean DiagnosticCenter.Web.Pages.TestType.CreateModel::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Web.Pages.TestType.CreateModel::get_IsActive()
+DA:26,0
+FN:27,System.String DiagnosticCenter.Web.Pages.TestType.CreateModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.CreateModel::get_ErrorMessage()
+DA:28,0
+FN:28,System.String DiagnosticCenter.Web.Pages.TestType.CreateModel::get_SuccessMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.CreateModel::get_SuccessMessage()
+DA:29,0
+FN:31,Microsoft.AspNetCore.Mvc.IActionResult DiagnosticCenter.Web.Pages.TestType.CreateModel::OnGet()
+FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult DiagnosticCenter.Web.Pages.TestType.CreateModel::OnGet()
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:40,0
+BRDA:34,31,0,0
+BRDA:34,31,1,0
+FN:13,System.Void DiagnosticCenter.Web.Pages.TestType.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.CreateModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.CreateModel>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:42,System.Void DiagnosticCenter.Web.Pages.TestType.CreateModel/<OnPostAsync>d__20::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.CreateModel/<OnPostAsync>d__20::MoveNext()
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:78,0
+BRDA:44,36,0,0
+BRDA:44,36,1,0
+BRDA:52,113,0,0
+BRDA:52,113,1,0
+LF:43
+LH:0
+BRF:6
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Delete.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.TestTypeDto DiagnosticCenter.Web.Pages.TestType.DeleteModel::get_TestType()
+FNDA:0,DiagnosticCenter.Application.DTOs.TestTypeDto DiagnosticCenter.Web.Pages.TestType.DeleteModel::get_TestType()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestType.DeleteModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.DeleteModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestType.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.DeleteModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.DeleteModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestType.DeleteModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.DeleteModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+FN:49,System.Void DiagnosticCenter.Web.Pages.TestType.DeleteModel/<OnPostAsync>d__12::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.DeleteModel/<OnPostAsync>d__12::MoveNext()
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:54,90,0,0
+BRDA:54,90,1,0
+LF:40
+LH:0
+BRF:6
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Details.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.TestTypeDto DiagnosticCenter.Web.Pages.TestType.DetailsModel::get_TestType()
+FNDA:0,DiagnosticCenter.Application.DTOs.TestTypeDto DiagnosticCenter.Web.Pages.TestType.DetailsModel::get_TestType()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestType.DetailsModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.DetailsModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestType.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.DetailsModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.DetailsModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestType.DetailsModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.DetailsModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+LF:25
+LH:0
+BRF:4
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Edit.cshtml.cs
+FN:22,System.String DiagnosticCenter.Web.Pages.TestType.EditModel::get_Name()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.EditModel::get_Name()
+DA:23,0
+FN:25,System.Boolean DiagnosticCenter.Web.Pages.TestType.EditModel::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Web.Pages.TestType.EditModel::get_IsActive()
+DA:26,0
+FN:27,System.String DiagnosticCenter.Web.Pages.TestType.EditModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.EditModel::get_ErrorMessage()
+DA:28,0
+FN:28,System.String DiagnosticCenter.Web.Pages.TestType.EditModel::get_SuccessMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.EditModel::get_SuccessMessage()
+DA:29,0
+FN:13,System.Void DiagnosticCenter.Web.Pages.TestType.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.EditModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.EditModel>)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:31,System.Void DiagnosticCenter.Web.Pages.TestType.EditModel/<OnGetAsync>d__19::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.EditModel/<OnGetAsync>d__19::MoveNext()
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,0
+BRDA:36,72,0,0
+BRDA:36,72,1,0
+BRDA:42,257,0,0
+BRDA:42,257,1,0
+FN:61,System.Void DiagnosticCenter.Web.Pages.TestType.EditModel/<OnPostAsync>d__20::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.EditModel/<OnPostAsync>d__20::MoveNext()
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:98,0
+BRDA:63,36,0,0
+BRDA:63,36,1,0
+BRDA:71,113,0,0
+BRDA:71,113,1,0
+LF:57
+LH:0
+BRF:8
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Index.cshtml.cs
+FN:18,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.TestTypeDto> DiagnosticCenter.Web.Pages.TestType.IndexModel::get_TestTypes()
+FNDA:0,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.TestTypeDto> DiagnosticCenter.Web.Pages.TestType.IndexModel::get_TestTypes()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestType.IndexModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestType.IndexModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestType.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.IndexModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestType.IndexModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestType.IndexModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.IndexModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+LF:21
+LH:0
+BRF:2
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Create.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Create/<ExecuteAsync>d__23::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Create/<ExecuteAsync>d__23::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:18,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,208,0,0
+BRDA:15,208,1,0
+BRDA:18,646,0,0
+BRDA:18,646,1,0
+LF:7
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Delete.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Delete/<ExecuteAsync>d__13::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Delete/<ExecuteAsync>d__13::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:33,0
+DA:34,0
+DA:36,0
+DA:38,0
+DA:40,0
+DA:50,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,203,0,0
+BRDA:33,371,0,0
+BRDA:33,371,1,0
+BRDA:40,827,0,0
+BRDA:40,827,1,0
+BRDA:15,203,1,0
+LF:12
+LH:0
+BRF:8
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Details.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Details/<ExecuteAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Details/<ExecuteAsync>d__11::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:33,0
+DA:35,0
+DA:41,0
+DA:42,0
+DA:45,0
+DA:53,0
+BRDA:10,122,0,0
+BRDA:10,122,1,0
+BRDA:15,226,0,0
+BRDA:28,377,0,0
+BRDA:28,377,1,0
+BRDA:41,534,0,0
+BRDA:41,534,1,0
+BRDA:45,827,0,0
+BRDA:45,827,1,0
+BRDA:45,1192,0,0
+BRDA:45,1192,1,0
+BRDA:45,1708,0,0
+BRDA:45,1708,1,0
+BRDA:15,226,1,0
+LF:15
+LH:0
+BRF:14
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Edit.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Edit/<ExecuteAsync>d__23::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Edit/<ExecuteAsync>d__23::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:18,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,208,0,0
+BRDA:15,208,1,0
+BRDA:18,646,0,0
+BRDA:18,646,1,0
+LF:7
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestType/Index.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Index/<ExecuteAsync>d__15::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestType.Pages_TestType_Index/<ExecuteAsync>d__15::MoveNext()
+DA:4,0
+DA:14,0
+DA:15,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:31,0
+DA:32,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:42,0
+DA:44,0
+DA:52,0
+DA:55,0
+DA:57,0
+DA:59,0
+BRDA:4,431,0,0
+BRDA:4,431,1,0
+BRDA:14,644,0,0
+BRDA:14,644,1,0
+BRDA:19,752,0,0
+BRDA:31,3249,1,0
+BRDA:37,1008,0,0
+BRDA:37,1008,1,0
+BRDA:44,1249,0,0
+BRDA:44,1249,1,0
+BRDA:44,1603,0,0
+BRDA:44,1603,1,0
+BRDA:44,1970,0,0
+BRDA:44,1970,1,0
+BRDA:44,2324,0,0
+BRDA:44,2324,1,0
+BRDA:44,2691,0,0
+BRDA:44,2691,1,0
+BRDA:44,3045,0,0
+BRDA:44,3045,1,0
+BRDA:31,3249,0,0
+BRDA:19,752,1,0
+LF:17
+LH:0
+BRF:22
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Create.cshtml.cs
+FN:25,Microsoft.AspNetCore.Mvc.Rendering.SelectList DiagnosticCenter.Web.Pages.TestSetup.CreateModel::get_TestTypes()
+FNDA:0,Microsoft.AspNetCore.Mvc.Rendering.SelectList DiagnosticCenter.Web.Pages.TestSetup.CreateModel::get_TestTypes()
+DA:26,0
+FN:28,DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel DiagnosticCenter.Web.Pages.TestSetup.CreateModel::get_TestSetup()
+FNDA:0,DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel DiagnosticCenter.Web.Pages.TestSetup.CreateModel::get_TestSetup()
+DA:29,0
+FN:15,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.CreateModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.CreateModel>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:82,System.String DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel::get_Name()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel::get_Name()
+DA:83,0
+FN:86,System.Decimal DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel::get_Fee()
+FNDA:0,System.Decimal DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel::get_Fee()
+DA:87,0
+FN:89,System.Int32 DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel::get_TypeId()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.TestSetup.CreateModel/TestSetupCreateViewModel::get_TypeId()
+DA:90,0
+FN:73,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel/<LoadTestTypesAsync>d__14::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel/<LoadTestTypesAsync>d__14::MoveNext()
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+FN:31,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel/<OnGetAsync>d__12::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel/<OnGetAsync>d__12::MoveNext()
+DA:32,0
+DA:33,0
+DA:34,0
+FN:36,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel/<OnPostAsync>d__13::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.CreateModel/<OnPostAsync>d__13::MoveNext()
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+BRDA:38,69,0,0
+BRDA:38,69,1,0
+BRDA:46,385,0,0
+BRDA:46,385,1,0
+LF:47
+LH:0
+BRF:4
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Delete.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.TestSetupDto DiagnosticCenter.Web.Pages.TestSetup.DeleteModel::get_TestSetup()
+FNDA:0,DiagnosticCenter.Application.DTOs.TestSetupDto DiagnosticCenter.Web.Pages.TestSetup.DeleteModel::get_TestSetup()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestSetup.DeleteModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestSetup.DeleteModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestSetup.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.DeleteModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.DeleteModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestSetup.DeleteModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.DeleteModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+FN:49,System.Void DiagnosticCenter.Web.Pages.TestSetup.DeleteModel/<OnPostAsync>d__12::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.DeleteModel/<OnPostAsync>d__12::MoveNext()
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:54,90,0,0
+BRDA:54,90,1,0
+LF:40
+LH:0
+BRF:6
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Details.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.TestSetupDto DiagnosticCenter.Web.Pages.TestSetup.DetailsModel::get_TestSetup()
+FNDA:0,DiagnosticCenter.Application.DTOs.TestSetupDto DiagnosticCenter.Web.Pages.TestSetup.DetailsModel::get_TestSetup()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestSetup.DetailsModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestSetup.DetailsModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestSetup.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.DetailsModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.DetailsModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestSetup.DetailsModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.DetailsModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+LF:25
+LH:0
+BRF:4
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Edit.cshtml.cs
+FN:28,System.String DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_Name()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_Name()
+DA:29,0
+FN:33,System.Decimal DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_Fee()
+FNDA:0,System.Decimal DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_Fee()
+DA:34,0
+FN:37,System.Int32 DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_TypeId()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_TypeId()
+DA:38,0
+FN:40,System.Boolean DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_IsActive()
+DA:41,0
+FN:42,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_TestTypes()
+FNDA:0,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_TestTypes()
+DA:43,0
+FN:43,System.String DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_ErrorMessage()
+DA:44,0
+FN:44,System.String DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_SuccessMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestSetup.EditModel::get_SuccessMessage()
+DA:45,0
+FN:15,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.EditModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,DiagnosticCenter.Application.Interfaces.ITestTypeService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.EditModel>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:126,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.TestSetup.EditModel/<>c::<LoadTestTypesAsync>b__34_0(DiagnosticCenter.Application.DTOs.TestTypeDto)
+FNDA:0,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.TestSetup.EditModel/<>c::<LoadTestTypesAsync>b__34_0(DiagnosticCenter.Application.DTOs.TestTypeDto)
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+FN:124,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel/<LoadTestTypesAsync>d__34::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel/<LoadTestTypesAsync>d__34::MoveNext()
+DA:125,0
+DA:126,0
+DA:132,0
+FN:47,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel/<OnGetAsync>d__32::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel/<OnGetAsync>d__32::MoveNext()
+DA:48,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:57,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:79,0
+BRDA:52,84,0,0
+BRDA:52,84,1,0
+BRDA:60,374,0,0
+BRDA:60,374,1,0
+FN:81,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel/<OnPostAsync>d__33::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.EditModel/<OnPostAsync>d__33::MoveNext()
+DA:82,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:122,0
+BRDA:85,150,0,0
+BRDA:85,150,1,0
+BRDA:93,230,0,0
+BRDA:93,230,1,0
+LF:78
+LH:0
+BRF:8
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Index.cshtml.cs
+FN:17,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.TestSetupDto> DiagnosticCenter.Web.Pages.TestSetup.IndexModel::get_TestSetups()
+FNDA:0,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.TestSetupDto> DiagnosticCenter.Web.Pages.TestSetup.IndexModel::get_TestSetups()
+DA:18,0
+FN:11,System.Void DiagnosticCenter.Web.Pages.TestSetup.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.IndexModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestSetup.IndexModel>)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:20,System.Void DiagnosticCenter.Web.Pages.TestSetup.IndexModel/<OnGetAsync>d__7::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.IndexModel/<OnGetAsync>d__7::MoveNext()
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+LF:16
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Create.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Create/<ExecuteAsync>d__24::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Create/<ExecuteAsync>d__24::MoveNext()
+DA:4,0
+BRDA:4,425,0,0
+BRDA:4,425,1,0
+LF:1
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Delete.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Delete/<ExecuteAsync>d__13::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Delete/<ExecuteAsync>d__13::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:39,0
+DA:40,0
+DA:42,0
+DA:44,0
+DA:46,0
+DA:56,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,203,0,0
+BRDA:39,486,0,0
+BRDA:39,486,1,0
+BRDA:46,942,0,0
+BRDA:46,942,1,0
+BRDA:15,203,1,0
+LF:12
+LH:0
+BRF:8
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Details.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Details/<ExecuteAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Details/<ExecuteAsync>d__11::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:34,0
+DA:35,0
+DA:37,0
+DA:39,0
+DA:41,0
+DA:47,0
+DA:48,0
+DA:51,0
+DA:59,0
+BRDA:10,122,0,0
+BRDA:10,122,1,0
+BRDA:15,226,0,0
+BRDA:34,492,0,0
+BRDA:34,492,1,0
+BRDA:47,649,0,0
+BRDA:47,649,1,0
+BRDA:51,942,0,0
+BRDA:51,942,1,0
+BRDA:51,1307,0,0
+BRDA:51,1307,1,0
+BRDA:51,1823,0,0
+BRDA:51,1823,1,0
+BRDA:15,226,1,0
+LF:15
+LH:0
+BRF:14
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Edit.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Edit/<ExecuteAsync>d__29::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Edit/<ExecuteAsync>d__29::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:18,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,208,0,0
+BRDA:15,208,1,0
+BRDA:18,646,0,0
+BRDA:18,646,1,0
+LF:7
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestSetup/Index.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Index/<ExecuteAsync>d__15::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestSetup.Pages_TestSetup_Index/<ExecuteAsync>d__15::MoveNext()
+DA:4,0
+DA:13,0
+DA:14,0
+DA:25,0
+DA:26,0
+DA:37,0
+DA:40,0
+DA:42,0
+DA:44,0
+BRDA:4,431,0,0
+BRDA:4,431,1,0
+BRDA:13,632,0,0
+BRDA:13,632,1,0
+BRDA:13,662,0,0
+BRDA:25,3134,1,0
+BRDA:26,1134,0,0
+BRDA:26,1134,1,0
+BRDA:26,1488,0,0
+BRDA:26,1488,1,0
+BRDA:26,1855,0,0
+BRDA:26,1855,1,0
+BRDA:26,2209,0,0
+BRDA:26,2209,1,0
+BRDA:26,2576,0,0
+BRDA:26,2576,1,0
+BRDA:26,2930,0,0
+BRDA:26,2930,1,0
+BRDA:25,3134,0,0
+BRDA:13,662,1,0
+LF:9
+LH:0
+BRF:20
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Create.cshtml.cs
+FN:28,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_BillNo()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_BillNo()
+DA:29,0
+FN:33,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_PatientName()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_PatientName()
+DA:34,0
+FN:38,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_PatientAge()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_PatientAge()
+DA:39,0
+FN:42,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_PatientGender()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_PatientGender()
+DA:43,0
+FN:46,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_ContactNumber()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_ContactNumber()
+DA:47,0
+FN:50,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TestSetupId()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TestSetupId()
+DA:51,0
+FN:54,System.DateTime DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TestDate()
+FNDA:0,System.DateTime DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TestDate()
+DA:55,0
+FN:59,System.Decimal DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TotalFee()
+FNDA:0,System.Decimal DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TotalFee()
+DA:60,0
+FN:62,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_IsPaid()
+FNDA:0,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_IsPaid()
+DA:63,0
+FN:64,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TestSetups()
+FNDA:0,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_TestSetups()
+DA:65,0
+FN:65,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_ErrorMessage()
+DA:66,0
+FN:66,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_SuccessMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.CreateModel::get_SuccessMessage()
+DA:67,0
+FN:15,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.CreateModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.CreateModel>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:131,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<>c::<LoadTestSetupsAsync>b__54_0(DiagnosticCenter.Application.DTOs.TestSetupDto)
+FNDA:0,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<>c::<LoadTestSetupsAsync>b__54_0(DiagnosticCenter.Application.DTOs.TestSetupDto)
+DA:132,0
+FN:132,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<>c::<LoadTestSetupsAsync>b__54_1(DiagnosticCenter.Application.DTOs.TestSetupDto)
+FNDA:0,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<>c::<LoadTestSetupsAsync>b__54_1(DiagnosticCenter.Application.DTOs.TestSetupDto)
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+FN:129,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<LoadTestSetupsAsync>d__54::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<LoadTestSetupsAsync>d__54::MoveNext()
+DA:130,0
+DA:131,0
+DA:137,0
+FN:69,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<OnGetAsync>d__52::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<OnGetAsync>d__52::MoveNext()
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:77,0
+DA:78,0
+DA:79,0
+BRDA:72,63,0,0
+BRDA:72,63,1,0
+FN:81,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<OnPostAsync>d__53::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.CreateModel/<OnPostAsync>d__53::MoveNext()
+DA:82,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:127,0
+BRDA:85,150,0,0
+BRDA:85,150,1,0
+BRDA:93,230,0,0
+BRDA:93,230,1,0
+LF:73
+LH:0
+BRF:6
+BRH:0
+FNF:18
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Delete.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.TestEntryDto DiagnosticCenter.Web.Pages.TestEntry.DeleteModel::get_TestEntry()
+FNDA:0,DiagnosticCenter.Application.DTOs.TestEntryDto DiagnosticCenter.Web.Pages.TestEntry.DeleteModel::get_TestEntry()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestEntry.DeleteModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.DeleteModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestEntry.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.DeleteModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.DeleteModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestEntry.DeleteModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.DeleteModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+FN:49,System.Void DiagnosticCenter.Web.Pages.TestEntry.DeleteModel/<OnPostAsync>d__12::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.DeleteModel/<OnPostAsync>d__12::MoveNext()
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:54,90,0,0
+BRDA:54,90,1,0
+LF:40
+LH:0
+BRF:6
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Details.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.TestEntryDto DiagnosticCenter.Web.Pages.TestEntry.DetailsModel::get_TestEntry()
+FNDA:0,DiagnosticCenter.Application.DTOs.TestEntryDto DiagnosticCenter.Web.Pages.TestEntry.DetailsModel::get_TestEntry()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestEntry.DetailsModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.DetailsModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestEntry.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.DetailsModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.DetailsModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestEntry.DetailsModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.DetailsModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+LF:25
+LH:0
+BRF:4
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Edit.cshtml.cs
+FN:28,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_BillNo()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_BillNo()
+DA:29,0
+FN:33,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_PatientName()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_PatientName()
+DA:34,0
+FN:38,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_PatientAge()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_PatientAge()
+DA:39,0
+FN:42,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_PatientGender()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_PatientGender()
+DA:43,0
+FN:46,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_ContactNumber()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_ContactNumber()
+DA:47,0
+FN:50,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TestSetupId()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TestSetupId()
+DA:51,0
+FN:54,System.DateTime DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TestDate()
+FNDA:0,System.DateTime DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TestDate()
+DA:55,0
+FN:59,System.Decimal DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TotalFee()
+FNDA:0,System.Decimal DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TotalFee()
+DA:60,0
+FN:62,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_IsPaid()
+FNDA:0,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_IsPaid()
+DA:63,0
+FN:64,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TestSetups()
+FNDA:0,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_TestSetups()
+DA:65,0
+FN:65,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_ErrorMessage()
+DA:66,0
+FN:66,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_SuccessMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.EditModel::get_SuccessMessage()
+DA:67,0
+FN:15,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.EditModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,DiagnosticCenter.Application.Interfaces.ITestSetupService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.EditModel>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:157,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.EditModel/<>c::<LoadTestSetupsAsync>b__54_0(DiagnosticCenter.Application.DTOs.TestSetupDto)
+FNDA:0,System.Boolean DiagnosticCenter.Web.Pages.TestEntry.EditModel/<>c::<LoadTestSetupsAsync>b__54_0(DiagnosticCenter.Application.DTOs.TestSetupDto)
+DA:158,0
+FN:158,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.TestEntry.EditModel/<>c::<LoadTestSetupsAsync>b__54_1(DiagnosticCenter.Application.DTOs.TestSetupDto)
+FNDA:0,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.TestEntry.EditModel/<>c::<LoadTestSetupsAsync>b__54_1(DiagnosticCenter.Application.DTOs.TestSetupDto)
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+FN:155,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel/<LoadTestSetupsAsync>d__54::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel/<LoadTestSetupsAsync>d__54::MoveNext()
+DA:156,0
+DA:157,0
+DA:163,0
+FN:69,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel/<OnGetAsync>d__52::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel/<OnGetAsync>d__52::MoveNext()
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:79,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:98,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+BRDA:74,84,0,0
+BRDA:74,84,1,0
+BRDA:82,374,0,0
+BRDA:82,374,1,0
+FN:108,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel/<OnPostAsync>d__53::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.EditModel/<OnPostAsync>d__53::MoveNext()
+DA:109,0
+DA:110,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:153,0
+BRDA:112,150,0,0
+BRDA:112,150,1,0
+BRDA:120,230,0,0
+BRDA:120,230,1,0
+LF:92
+LH:0
+BRF:8
+BRH:0
+FNF:18
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Index.cshtml.cs
+FN:18,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.TestEntryDto> DiagnosticCenter.Web.Pages.TestEntry.IndexModel::get_TestEntries()
+FNDA:0,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.TestEntryDto> DiagnosticCenter.Web.Pages.TestEntry.IndexModel::get_TestEntries()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.TestEntry.IndexModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.IndexModel::get_ErrorMessage()
+DA:20,0
+FN:22,System.String DiagnosticCenter.Web.Pages.TestEntry.IndexModel::get_SearchTerm()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.TestEntry.IndexModel::get_SearchTerm()
+DA:23,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.TestEntry.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.IndexModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.TestEntry.IndexModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:25,System.Void DiagnosticCenter.Web.Pages.TestEntry.IndexModel/<OnGetAsync>d__15::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.IndexModel/<OnGetAsync>d__15::MoveNext()
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+BRDA:30,84,0,0
+BRDA:30,84,1,0
+BRDA:35,130,0,0
+BRDA:35,130,1,0
+LF:28
+LH:0
+BRF:4
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Create.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Create/<ExecuteAsync>d__33::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Create/<ExecuteAsync>d__33::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:18,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,208,0,0
+BRDA:15,208,1,0
+BRDA:18,646,0,0
+BRDA:18,646,1,0
+LF:7
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Delete.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Delete/<ExecuteAsync>d__13::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Delete/<ExecuteAsync>d__13::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:47,0
+DA:49,0
+DA:59,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,203,0,0
+BRDA:42,545,0,0
+BRDA:42,545,1,0
+BRDA:49,1001,0,0
+BRDA:49,1001,1,0
+BRDA:15,203,1,0
+LF:12
+LH:0
+BRF:8
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Details.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Details/<ExecuteAsync>d__13::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Details/<ExecuteAsync>d__13::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:32,0
+DA:33,0
+DA:36,0
+DA:49,0
+DA:50,0
+DA:52,0
+DA:54,0
+DA:56,0
+DA:62,0
+DA:63,0
+DA:66,0
+DA:75,0
+BRDA:10,140,0,0
+BRDA:10,140,1,0
+BRDA:15,244,0,0
+BRDA:32,503,0,0
+BRDA:32,503,1,0
+BRDA:49,794,0,0
+BRDA:49,794,1,0
+BRDA:62,951,0,0
+BRDA:62,951,1,0
+BRDA:66,1244,0,0
+BRDA:66,1244,1,0
+BRDA:66,1609,0,0
+BRDA:66,1609,1,0
+BRDA:66,1977,0,0
+BRDA:66,1977,1,0
+BRDA:66,2342,0,0
+BRDA:66,2342,1,0
+BRDA:66,2858,0,0
+BRDA:66,2858,1,0
+BRDA:15,244,1,0
+LF:18
+LH:0
+BRF:20
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Edit.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Edit/<ExecuteAsync>d__33::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Edit/<ExecuteAsync>d__33::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:18,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,208,0,0
+BRDA:15,208,1,0
+BRDA:18,646,0,0
+BRDA:18,646,1,0
+LF:7
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/TestEntry/Index.cshtml
+FN:22,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Index/<<ExecuteAsync>b__23_2>d::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Index/<<ExecuteAsync>b__23_2>d::MoveNext()
+DA:23,0
+DA:24,0
+DA:28,0
+BRDA:23,185,0,0
+BRDA:24,534,0,0
+BRDA:24,534,1,0
+BRDA:23,185,1,0
+FN:3,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Index/<ExecuteAsync>d__23::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.TestEntry.Pages_TestEntry_Index/<ExecuteAsync>d__23::MoveNext()
+DA:4,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:37,0
+DA:38,0
+DA:52,0
+DA:53,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:66,0
+DA:68,0
+DA:76,0
+DA:79,0
+DA:81,0
+DA:83,0
+DA:84,0
+DA:86,0
+DA:88,0
+DA:90,0
+DA:92,0
+BRDA:4,467,0,0
+BRDA:4,467,1,0
+BRDA:4,981,0,0
+BRDA:4,981,1,0
+BRDA:4,1545,0,0
+BRDA:4,1545,1,0
+BRDA:32,1758,0,0
+BRDA:32,1758,1,0
+BRDA:37,1866,0,0
+BRDA:52,4509,1,0
+BRDA:61,2265,0,0
+BRDA:61,2265,1,0
+BRDA:68,2506,0,0
+BRDA:68,2506,1,0
+BRDA:68,2860,0,0
+BRDA:68,2860,1,0
+BRDA:68,3227,0,0
+BRDA:68,3227,1,0
+BRDA:68,3581,0,0
+BRDA:68,3581,1,0
+BRDA:68,3949,0,0
+BRDA:68,3949,1,0
+BRDA:68,4304,0,0
+BRDA:68,4304,1,0
+BRDA:52,4509,0,0
+BRDA:37,1866,1,0
+BRDA:83,4617,0,0
+BRDA:83,4617,1,0
+LF:25
+LH:0
+BRF:32
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Create.cshtml.cs
+FN:27,System.Int32 DiagnosticCenter.Web.Pages.Payment.CreateModel::get_TestEntryId()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.Payment.CreateModel::get_TestEntryId()
+DA:28,0
+FN:32,System.Decimal DiagnosticCenter.Web.Pages.Payment.CreateModel::get_Amount()
+FNDA:0,System.Decimal DiagnosticCenter.Web.Pages.Payment.CreateModel::get_Amount()
+DA:33,0
+FN:36,System.DateTime DiagnosticCenter.Web.Pages.Payment.CreateModel::get_PaymentDate()
+FNDA:0,System.DateTime DiagnosticCenter.Web.Pages.Payment.CreateModel::get_PaymentDate()
+DA:37,0
+FN:41,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_PaymentMode()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_PaymentMode()
+DA:42,0
+FN:45,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_Notes()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_Notes()
+DA:46,0
+FN:47,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.Payment.CreateModel::get_TestEntries()
+FNDA:0,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.Payment.CreateModel::get_TestEntries()
+DA:48,0
+FN:48,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_ErrorMessage()
+DA:49,0
+FN:49,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_SuccessMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.CreateModel::get_SuccessMessage()
+DA:50,0
+FN:15,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.CreateModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.CreateModel>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:110,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.Payment.CreateModel/<>c::<LoadTestEntriesAsync>b__38_0(DiagnosticCenter.Application.DTOs.TestEntryDto)
+FNDA:0,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.Payment.CreateModel/<>c::<LoadTestEntriesAsync>b__38_0(DiagnosticCenter.Application.DTOs.TestEntryDto)
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+FN:108,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel/<LoadTestEntriesAsync>d__38::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel/<LoadTestEntriesAsync>d__38::MoveNext()
+DA:109,0
+DA:110,0
+DA:116,0
+FN:52,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel/<OnGetAsync>d__36::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel/<OnGetAsync>d__36::MoveNext()
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:60,0
+DA:61,0
+DA:62,0
+BRDA:55,63,0,0
+BRDA:55,63,1,0
+FN:64,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel/<OnPostAsync>d__37::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.CreateModel/<OnPostAsync>d__37::MoveNext()
+DA:65,0
+DA:66,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+BRDA:68,150,0,0
+BRDA:68,150,1,0
+BRDA:76,230,0,0
+BRDA:76,230,1,0
+LF:65
+LH:0
+BRF:6
+BRH:0
+FNF:13
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Delete.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.PaymentDto DiagnosticCenter.Web.Pages.Payment.DeleteModel::get_Payment()
+FNDA:0,DiagnosticCenter.Application.DTOs.PaymentDto DiagnosticCenter.Web.Pages.Payment.DeleteModel::get_Payment()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.Payment.DeleteModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.DeleteModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.Payment.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.DeleteModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.DeleteModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.DeleteModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.Payment.DeleteModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.DeleteModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+FN:49,System.Void DiagnosticCenter.Web.Pages.Payment.DeleteModel/<OnPostAsync>d__12::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.DeleteModel/<OnPostAsync>d__12::MoveNext()
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:69,0
+BRDA:54,90,0,0
+BRDA:54,90,1,0
+LF:40
+LH:0
+BRF:6
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Details.cshtml.cs
+FN:18,DiagnosticCenter.Application.DTOs.PaymentDto DiagnosticCenter.Web.Pages.Payment.DetailsModel::get_Payment()
+FNDA:0,DiagnosticCenter.Application.DTOs.PaymentDto DiagnosticCenter.Web.Pages.Payment.DetailsModel::get_Payment()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.Payment.DetailsModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.DetailsModel::get_ErrorMessage()
+DA:20,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.Payment.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.DetailsModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.DetailsModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.DetailsModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:22,System.Void DiagnosticCenter.Web.Pages.Payment.DetailsModel/<OnGetAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.DetailsModel/<OnGetAsync>d__11::MoveNext()
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+BRDA:27,72,0,0
+BRDA:27,72,1,0
+BRDA:33,268,0,0
+BRDA:33,268,1,0
+LF:25
+LH:0
+BRF:4
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Edit.cshtml.cs
+FN:27,System.Int32 DiagnosticCenter.Web.Pages.Payment.EditModel::get_TestEntryId()
+FNDA:0,System.Int32 DiagnosticCenter.Web.Pages.Payment.EditModel::get_TestEntryId()
+DA:28,0
+FN:32,System.Decimal DiagnosticCenter.Web.Pages.Payment.EditModel::get_Amount()
+FNDA:0,System.Decimal DiagnosticCenter.Web.Pages.Payment.EditModel::get_Amount()
+DA:33,0
+FN:36,System.DateTime DiagnosticCenter.Web.Pages.Payment.EditModel::get_PaymentDate()
+FNDA:0,System.DateTime DiagnosticCenter.Web.Pages.Payment.EditModel::get_PaymentDate()
+DA:37,0
+FN:41,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_PaymentMode()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_PaymentMode()
+DA:42,0
+FN:45,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_Notes()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_Notes()
+DA:46,0
+FN:47,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.Payment.EditModel::get_TestEntries()
+FNDA:0,System.Collections.Generic.List`1<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem> DiagnosticCenter.Web.Pages.Payment.EditModel::get_TestEntries()
+DA:48,0
+FN:48,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_ErrorMessage()
+DA:49,0
+FN:49,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_SuccessMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.EditModel::get_SuccessMessage()
+DA:50,0
+FN:15,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.EditModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,DiagnosticCenter.Application.Interfaces.ITestEntryService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.EditModel>)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+FN:133,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.Payment.EditModel/<>c::<LoadTestEntriesAsync>b__38_0(DiagnosticCenter.Application.DTOs.TestEntryDto)
+FNDA:0,Microsoft.AspNetCore.Mvc.Rendering.SelectListItem DiagnosticCenter.Web.Pages.Payment.EditModel/<>c::<LoadTestEntriesAsync>b__38_0(DiagnosticCenter.Application.DTOs.TestEntryDto)
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+FN:131,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel/<LoadTestEntriesAsync>d__38::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel/<LoadTestEntriesAsync>d__38::MoveNext()
+DA:132,0
+DA:133,0
+DA:139,0
+FN:52,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel/<OnGetAsync>d__36::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel/<OnGetAsync>d__36::MoveNext()
+DA:53,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+BRDA:57,84,0,0
+BRDA:57,84,1,0
+BRDA:65,374,0,0
+BRDA:65,374,1,0
+FN:87,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel/<OnPostAsync>d__37::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.EditModel/<OnPostAsync>d__37::MoveNext()
+DA:88,0
+DA:89,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:129,0
+BRDA:91,150,0,0
+BRDA:91,150,1,0
+BRDA:99,230,0,0
+BRDA:99,230,1,0
+LF:81
+LH:0
+BRF:8
+BRH:0
+FNF:13
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Index.cshtml.cs
+FN:18,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.PaymentDto> DiagnosticCenter.Web.Pages.Payment.IndexModel::get_Payments()
+FNDA:0,System.Collections.Generic.IEnumerable`1<DiagnosticCenter.Application.DTOs.PaymentDto> DiagnosticCenter.Web.Pages.Payment.IndexModel::get_Payments()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Web.Pages.Payment.IndexModel::get_ErrorMessage()
+FNDA:0,System.String DiagnosticCenter.Web.Pages.Payment.IndexModel::get_ErrorMessage()
+DA:20,0
+FN:22,System.Nullable`1<System.Int32> DiagnosticCenter.Web.Pages.Payment.IndexModel::get_TestEntryId()
+FNDA:0,System.Nullable`1<System.Int32> DiagnosticCenter.Web.Pages.Payment.IndexModel::get_TestEntryId()
+DA:23,0
+FN:12,System.Void DiagnosticCenter.Web.Pages.Payment.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.IndexModel>)
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.IndexModel::.ctor(DiagnosticCenter.Application.Interfaces.IPaymentService,Microsoft.Extensions.Logging.ILogger`1<DiagnosticCenter.Web.Pages.Payment.IndexModel>)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:25,System.Void DiagnosticCenter.Web.Pages.Payment.IndexModel/<OnGetAsync>d__15::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.IndexModel/<OnGetAsync>d__15::MoveNext()
+DA:26,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:52,0
+BRDA:30,84,0,0
+BRDA:30,84,1,0
+BRDA:35,131,0,0
+BRDA:35,131,1,0
+LF:28
+LH:0
+BRF:4
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Create.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Create/<ExecuteAsync>d__34::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Create/<ExecuteAsync>d__34::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:18,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,208,0,0
+BRDA:15,208,1,0
+BRDA:18,646,0,0
+BRDA:18,646,1,0
+LF:7
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Delete.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Delete/<ExecuteAsync>d__13::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Delete/<ExecuteAsync>d__13::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:40,0
+DA:41,0
+DA:44,0
+DA:53,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,203,0,0
+BRDA:40,558,0,0
+BRDA:40,558,1,0
+BRDA:44,1043,0,0
+BRDA:44,1043,1,0
+BRDA:15,203,1,0
+LF:10
+LH:0
+BRF:8
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Details.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Details/<ExecuteAsync>d__11::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Details/<ExecuteAsync>d__11::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:35,0
+DA:36,0
+DA:39,0
+DA:44,0
+DA:45,0
+DA:48,0
+DA:56,0
+BRDA:10,122,0,0
+BRDA:10,122,1,0
+BRDA:15,226,0,0
+BRDA:35,564,0,0
+BRDA:35,564,1,0
+BRDA:44,750,0,0
+BRDA:44,750,1,0
+BRDA:48,1043,0,0
+BRDA:48,1043,1,0
+BRDA:48,1408,0,0
+BRDA:48,1408,1,0
+BRDA:48,1924,0,0
+BRDA:48,1924,1,0
+BRDA:15,226,1,0
+LF:13
+LH:0
+BRF:14
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Edit.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Edit/<ExecuteAsync>d__34::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Edit/<ExecuteAsync>d__34::MoveNext()
+DA:4,0
+DA:10,0
+DA:11,0
+DA:13,0
+DA:15,0
+DA:16,0
+DA:18,0
+BRDA:10,99,0,0
+BRDA:10,99,1,0
+BRDA:15,208,0,0
+BRDA:15,208,1,0
+BRDA:18,646,0,0
+BRDA:18,646,1,0
+LF:7
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Payment/Index.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Index/<ExecuteAsync>d__15::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Payment.Pages_Payment_Index/<ExecuteAsync>d__15::MoveNext()
+DA:4,0
+DA:14,0
+DA:15,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:33,0
+DA:34,0
+DA:47,0
+DA:50,0
+DA:52,0
+DA:54,0
+BRDA:4,431,0,0
+BRDA:4,431,1,0
+BRDA:14,644,0,0
+BRDA:14,644,1,0
+BRDA:19,752,0,0
+BRDA:33,3323,1,0
+BRDA:34,1323,0,0
+BRDA:34,1323,1,0
+BRDA:34,1677,0,0
+BRDA:34,1677,1,0
+BRDA:34,2044,0,0
+BRDA:34,2044,1,0
+BRDA:34,2398,0,0
+BRDA:34,2398,1,0
+BRDA:34,2765,0,0
+BRDA:34,2765,1,0
+BRDA:34,3119,0,0
+BRDA:34,3119,1,0
+BRDA:33,3323,0,0
+BRDA:19,752,1,0
+LF:12
+LH:0
+BRF:20
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Account/Logout.cshtml.cs
+FN:8,Microsoft.AspNetCore.Mvc.IActionResult DiagnosticCenter.Web.Pages.Account.LogoutModel::OnGet()
+FNDA:0,Microsoft.AspNetCore.Mvc.IActionResult DiagnosticCenter.Web.Pages.Account.LogoutModel::OnGet()
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Web/Pages/Account/Logout.cshtml
+FN:3,System.Void DiagnosticCenter.Web.Pages.Account.Pages_Account_Logout/<ExecuteAsync>d__8::MoveNext()
+FNDA:0,System.Void DiagnosticCenter.Web.Pages.Account.Pages_Account_Logout/<ExecuteAsync>d__8::MoveNext()
+DA:4,0
+BRDA:4,375,0,0
+BRDA:4,375,1,0
+LF:1
+LH:0
+BRF:2
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Domain/Entities/Payment.cs
+FN:7,System.Int32 DiagnosticCenter.Domain.Entities.Payment::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.Payment::get_Id()
+DA:8,0
+FN:8,System.Int32 DiagnosticCenter.Domain.Entities.Payment::get_TestEntryId()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.Payment::get_TestEntryId()
+DA:9,0
+FN:9,System.Decimal DiagnosticCenter.Domain.Entities.Payment::get_Amount()
+FNDA:0,System.Decimal DiagnosticCenter.Domain.Entities.Payment::get_Amount()
+DA:10,0
+FN:10,System.DateTime DiagnosticCenter.Domain.Entities.Payment::get_PaymentDate()
+FNDA:0,System.DateTime DiagnosticCenter.Domain.Entities.Payment::get_PaymentDate()
+DA:11,0
+FN:11,System.String DiagnosticCenter.Domain.Entities.Payment::get_PaymentMode()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Payment::get_PaymentMode()
+DA:12,0
+FN:12,System.String DiagnosticCenter.Domain.Entities.Payment::get_Notes()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Payment::get_Notes()
+DA:13,0
+FN:13,System.Boolean DiagnosticCenter.Domain.Entities.Payment::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Domain.Entities.Payment::get_IsActive()
+DA:14,0
+FN:14,System.DateTime DiagnosticCenter.Domain.Entities.Payment::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Domain.Entities.Payment::get_CreatedDate()
+DA:15,0
+FN:15,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.Payment::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.Payment::get_ModifiedDate()
+DA:16,0
+FN:16,System.String DiagnosticCenter.Domain.Entities.Payment::get_CreatedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Payment::get_CreatedBy()
+DA:17,0
+FN:17,System.String DiagnosticCenter.Domain.Entities.Payment::get_ModifiedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Payment::get_ModifiedBy()
+DA:18,0
+FN:19,DiagnosticCenter.Domain.Entities.TestEntry DiagnosticCenter.Domain.Entities.Payment::get_TestEntry()
+FNDA:0,DiagnosticCenter.Domain.Entities.TestEntry DiagnosticCenter.Domain.Entities.Payment::get_TestEntry()
+DA:20,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:12
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Domain/Entities/Report.cs
+FN:7,System.Int32 DiagnosticCenter.Domain.Entities.Report::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.Report::get_Id()
+DA:8,0
+FN:8,System.Int32 DiagnosticCenter.Domain.Entities.Report::get_TestEntryId()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.Report::get_TestEntryId()
+DA:9,0
+FN:9,System.String DiagnosticCenter.Domain.Entities.Report::get_ResultData()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Report::get_ResultData()
+DA:10,0
+FN:10,System.String DiagnosticCenter.Domain.Entities.Report::get_Notes()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Report::get_Notes()
+DA:11,0
+FN:11,System.DateTime DiagnosticCenter.Domain.Entities.Report::get_ReportDate()
+FNDA:0,System.DateTime DiagnosticCenter.Domain.Entities.Report::get_ReportDate()
+DA:12,0
+FN:12,System.Boolean DiagnosticCenter.Domain.Entities.Report::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Domain.Entities.Report::get_IsActive()
+DA:13,0
+FN:13,System.DateTime DiagnosticCenter.Domain.Entities.Report::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Domain.Entities.Report::get_CreatedDate()
+DA:14,0
+FN:14,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.Report::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.Report::get_ModifiedDate()
+DA:15,0
+FN:15,System.String DiagnosticCenter.Domain.Entities.Report::get_CreatedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Report::get_CreatedBy()
+DA:16,0
+FN:16,System.String DiagnosticCenter.Domain.Entities.Report::get_ModifiedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.Report::get_ModifiedBy()
+DA:17,0
+FN:18,DiagnosticCenter.Domain.Entities.TestEntry DiagnosticCenter.Domain.Entities.Report::get_TestEntry()
+FNDA:0,DiagnosticCenter.Domain.Entities.TestEntry DiagnosticCenter.Domain.Entities.Report::get_TestEntry()
+DA:19,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:11
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Domain/Entities/TestEntry.cs
+FN:7,System.Int32 DiagnosticCenter.Domain.Entities.TestEntry::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.TestEntry::get_Id()
+DA:8,0
+FN:8,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_BillNo()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_BillNo()
+DA:9,0
+FN:9,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_PatientName()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_PatientName()
+DA:10,0
+FN:10,System.Int32 DiagnosticCenter.Domain.Entities.TestEntry::get_PatientAge()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.TestEntry::get_PatientAge()
+DA:11,0
+FN:11,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_PatientGender()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_PatientGender()
+DA:12,0
+FN:12,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_ContactNumber()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_ContactNumber()
+DA:13,0
+FN:13,System.Int32 DiagnosticCenter.Domain.Entities.TestEntry::get_TestSetupId()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.TestEntry::get_TestSetupId()
+DA:14,0
+FN:14,System.DateTime DiagnosticCenter.Domain.Entities.TestEntry::get_TestDate()
+FNDA:0,System.DateTime DiagnosticCenter.Domain.Entities.TestEntry::get_TestDate()
+DA:15,0
+FN:15,System.Decimal DiagnosticCenter.Domain.Entities.TestEntry::get_TotalFee()
+FNDA:0,System.Decimal DiagnosticCenter.Domain.Entities.TestEntry::get_TotalFee()
+DA:16,0
+FN:16,System.Boolean DiagnosticCenter.Domain.Entities.TestEntry::get_IsPaid()
+FNDA:0,System.Boolean DiagnosticCenter.Domain.Entities.TestEntry::get_IsPaid()
+DA:17,0
+FN:17,System.DateTime DiagnosticCenter.Domain.Entities.TestEntry::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Domain.Entities.TestEntry::get_CreatedDate()
+DA:18,0
+FN:18,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.TestEntry::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.TestEntry::get_ModifiedDate()
+DA:19,0
+FN:19,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_CreatedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_CreatedBy()
+DA:20,0
+FN:20,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_ModifiedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestEntry::get_ModifiedBy()
+DA:21,0
+FN:22,DiagnosticCenter.Domain.Entities.TestSetup DiagnosticCenter.Domain.Entities.TestEntry::get_TestSetup()
+FNDA:0,DiagnosticCenter.Domain.Entities.TestSetup DiagnosticCenter.Domain.Entities.TestEntry::get_TestSetup()
+DA:23,0
+FN:23,System.Collections.Generic.ICollection`1<DiagnosticCenter.Domain.Entities.Payment> DiagnosticCenter.Domain.Entities.TestEntry::get_Payments()
+FNDA:0,System.Collections.Generic.ICollection`1<DiagnosticCenter.Domain.Entities.Payment> DiagnosticCenter.Domain.Entities.TestEntry::get_Payments()
+DA:24,0
+LF:16
+LH:0
+BRF:0
+BRH:0
+FNF:16
+FNH:0
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Domain/Entities/TestSetup.cs
+FN:7,System.Int32 DiagnosticCenter.Domain.Entities.TestSetup::get_Id()
+FNDA:1,System.Int32 DiagnosticCenter.Domain.Entities.TestSetup::get_Id()
+DA:8,1
+FN:8,System.String DiagnosticCenter.Domain.Entities.TestSetup::get_Name()
+FNDA:3,System.String DiagnosticCenter.Domain.Entities.TestSetup::get_Name()
+DA:9,3
+FN:9,System.Decimal DiagnosticCenter.Domain.Entities.TestSetup::get_Fee()
+FNDA:1,System.Decimal DiagnosticCenter.Domain.Entities.TestSetup::get_Fee()
+DA:10,1
+FN:10,System.Int32 DiagnosticCenter.Domain.Entities.TestSetup::get_TypeId()
+FNDA:1,System.Int32 DiagnosticCenter.Domain.Entities.TestSetup::get_TypeId()
+DA:11,1
+FN:11,System.Boolean DiagnosticCenter.Domain.Entities.TestSetup::get_IsActive()
+FNDA:1,System.Boolean DiagnosticCenter.Domain.Entities.TestSetup::get_IsActive()
+DA:12,1
+FN:12,System.DateTime DiagnosticCenter.Domain.Entities.TestSetup::get_CreatedDate()
+FNDA:1,System.DateTime DiagnosticCenter.Domain.Entities.TestSetup::get_CreatedDate()
+DA:13,1
+FN:13,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.TestSetup::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.TestSetup::get_ModifiedDate()
+DA:14,0
+FN:14,System.String DiagnosticCenter.Domain.Entities.TestSetup::get_CreatedBy()
+FNDA:1,System.String DiagnosticCenter.Domain.Entities.TestSetup::get_CreatedBy()
+DA:15,1
+FN:15,System.String DiagnosticCenter.Domain.Entities.TestSetup::get_ModifiedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestSetup::get_ModifiedBy()
+DA:16,0
+FN:17,DiagnosticCenter.Domain.Entities.TestType DiagnosticCenter.Domain.Entities.TestSetup::get_TestType()
+FNDA:1,DiagnosticCenter.Domain.Entities.TestType DiagnosticCenter.Domain.Entities.TestSetup::get_TestType()
+DA:18,1
+FN:18,System.Collections.Generic.ICollection`1<DiagnosticCenter.Domain.Entities.TestEntry> DiagnosticCenter.Domain.Entities.TestSetup::get_TestEntries()
+FNDA:1,System.Collections.Generic.ICollection`1<DiagnosticCenter.Domain.Entities.TestEntry> DiagnosticCenter.Domain.Entities.TestSetup::get_TestEntries()
+DA:19,1
+LF:11
+LH:9
+BRF:0
+BRH:0
+FNF:11
+FNH:9
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Domain/Entities/TestType.cs
+FN:7,System.Int32 DiagnosticCenter.Domain.Entities.TestType::get_Id()
+FNDA:1,System.Int32 DiagnosticCenter.Domain.Entities.TestType::get_Id()
+DA:8,1
+FN:8,System.String DiagnosticCenter.Domain.Entities.TestType::get_Name()
+FNDA:2,System.String DiagnosticCenter.Domain.Entities.TestType::get_Name()
+DA:9,2
+FN:9,System.String DiagnosticCenter.Domain.Entities.TestType::get_Description()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestType::get_Description()
+DA:10,0
+FN:10,System.Boolean DiagnosticCenter.Domain.Entities.TestType::get_IsActive()
+FNDA:1,System.Boolean DiagnosticCenter.Domain.Entities.TestType::get_IsActive()
+DA:11,1
+FN:11,System.DateTime DiagnosticCenter.Domain.Entities.TestType::get_CreatedDate()
+FNDA:1,System.DateTime DiagnosticCenter.Domain.Entities.TestType::get_CreatedDate()
+DA:12,1
+FN:12,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.TestType::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.TestType::get_ModifiedDate()
+DA:13,0
+FN:13,System.String DiagnosticCenter.Domain.Entities.TestType::get_CreatedBy()
+FNDA:1,System.String DiagnosticCenter.Domain.Entities.TestType::get_CreatedBy()
+DA:14,1
+FN:14,System.String DiagnosticCenter.Domain.Entities.TestType::get_ModifiedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.TestType::get_ModifiedBy()
+DA:15,0
+FN:16,System.Collections.Generic.ICollection`1<DiagnosticCenter.Domain.Entities.TestSetup> DiagnosticCenter.Domain.Entities.TestType::get_TestSetups()
+FNDA:1,System.Collections.Generic.ICollection`1<DiagnosticCenter.Domain.Entities.TestSetup> DiagnosticCenter.Domain.Entities.TestType::get_TestSetups()
+DA:17,1
+LF:9
+LH:6
+BRF:0
+BRH:0
+FNF:9
+FNH:6
+end_of_record
+SF:/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/src/DiagnosticCenter.Domain/Entities/User.cs
+FN:7,System.Int32 DiagnosticCenter.Domain.Entities.User::get_Id()
+FNDA:0,System.Int32 DiagnosticCenter.Domain.Entities.User::get_Id()
+DA:8,0
+FN:8,System.String DiagnosticCenter.Domain.Entities.User::get_Email()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.User::get_Email()
+DA:9,0
+FN:9,System.String DiagnosticCenter.Domain.Entities.User::get_PasswordHash()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.User::get_PasswordHash()
+DA:10,0
+FN:10,System.String DiagnosticCenter.Domain.Entities.User::get_AccountType()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.User::get_AccountType()
+DA:11,0
+FN:11,System.Boolean DiagnosticCenter.Domain.Entities.User::get_IsActive()
+FNDA:0,System.Boolean DiagnosticCenter.Domain.Entities.User::get_IsActive()
+DA:12,0
+FN:12,System.DateTime DiagnosticCenter.Domain.Entities.User::get_CreatedDate()
+FNDA:0,System.DateTime DiagnosticCenter.Domain.Entities.User::get_CreatedDate()
+DA:13,0
+FN:13,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.User::get_ModifiedDate()
+FNDA:0,System.Nullable`1<System.DateTime> DiagnosticCenter.Domain.Entities.User::get_ModifiedDate()
+DA:14,0
+FN:14,System.String DiagnosticCenter.Domain.Entities.User::get_CreatedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.User::get_CreatedBy()
+DA:15,0
+FN:15,System.String DiagnosticCenter.Domain.Entities.User::get_ModifiedBy()
+FNDA:0,System.String DiagnosticCenter.Domain.Entities.User::get_ModifiedBy()
+DA:16,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:9
+FNH:0
+end_of_record

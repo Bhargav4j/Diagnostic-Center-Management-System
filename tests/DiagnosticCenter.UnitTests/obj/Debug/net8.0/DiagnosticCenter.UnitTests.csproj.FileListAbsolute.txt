@@ -116,3 +116,4 @@
 /modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/tests/DiagnosticCenter.UnitTests/obj/Debug/net8.0/DiagnosticCenter.UnitTests.pdb
 /modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/tests/DiagnosticCenter.UnitTests/obj/Debug/net8.0/DiagnosticCenter.UnitTests.genruntimeconfig.cache
 /modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/tests/DiagnosticCenter.UnitTests/obj/Debug/net8.0/ref/DiagnosticCenter.UnitTests.dll
+/modernize-data/studio-data/TNT1001/APP2805/transformed-code/931/studio-workspace/Comp-Gtest-Diagnostic007/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/CoverletSourceRootsMapping_DiagnosticCenter.UnitTests
