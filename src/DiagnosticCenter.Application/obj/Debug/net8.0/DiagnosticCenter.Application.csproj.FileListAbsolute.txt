@@ -1,0 +1,6 @@
+/modernize-data/studio-data/TNT1001/APP2818/transformed-code/940/studio-workspace/Comp-Gtest-DIagnostic008/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP2818/transformed-code/940/studio-workspace/Comp-Gtest-DIagnostic008/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP2818/transformed-code/940/studio-workspace/Comp-Gtest-DIagnostic008/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP2818/transformed-code/940/studio-workspace/Comp-Gtest-DIagnostic008/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP2818/transformed-code/940/studio-workspace/Comp-Gtest-DIagnostic008/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP2818/transformed-code/940/studio-workspace/Comp-Gtest-DIagnostic008/src/DiagnosticCenter.Application/obj/Debug/net8.0/DiagnosticCenter.Application.sourcelink.json

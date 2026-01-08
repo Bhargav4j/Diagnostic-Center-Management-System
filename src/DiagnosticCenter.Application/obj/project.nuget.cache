@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bp9SWHyMWW0=",
+  "success": true,
+  "projectFilePath": "/modernize-data/studio-data/TNT1001/APP2818/transformed-code/940/studio-workspace/Comp-Gtest-DIagnostic008/src/DiagnosticCenter.Application/DiagnosticCenter.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/studioai/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/studioai/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/home/studioai/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
