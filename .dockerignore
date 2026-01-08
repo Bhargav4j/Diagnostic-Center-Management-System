@@ -1,0 +1,68 @@
+# Build artifacts
+bin/
+obj/
+
+# IDE and editor files
+.git/
+.gitignore
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+README*
+LICENSE*
+
+# Configuration files
+launchSettings.json
+
+# Test files
+**/TestResults/
+**/*.trx
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+azure-pipelines.yml
+Jenkinsfile
+
+# Scripts
+*.sh
+*.bat
+*.ps1

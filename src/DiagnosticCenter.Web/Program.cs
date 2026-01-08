@@ -8,12 +8,14 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add environment variables configuration
+builder.Configuration.AddEnvironmentVariables();
+
 // Configure Serilog
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
     .Enrich.FromLogContext()
     .WriteTo.Console()
-    .WriteTo.File("logs/diagnosticcenter-.log", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
 builder.Host.UseSerilog();
@@ -33,8 +35,19 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITestTypeService, TestTypeService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
-// Configure session
-builder.Services.AddDistributedMemoryCache();
+// Configure session with Redis distributed cache
+var redisConnection = builder.Configuration.GetValue<string>("Redis:ConnectionString");
+if (!string.IsNullOrEmpty(redisConnection))
+{
+    builder.Services.AddStackExchangeRedisCache(options =>
+    {
+        options.Configuration = redisConnection;
+    });
+}
+else
+{
+    builder.Services.AddDistributedMemoryCache();
+}
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -53,6 +66,10 @@ builder.Services.AddAuthentication("CookieAuth")
 
 builder.Services.AddAuthorization();
 
+// Add health checks
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<DiagnosticCenterDbContext>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
@@ -70,6 +87,9 @@ app.UseRouting();
 app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Map health check endpoints
+app.MapHealthChecks("/health");
 
 app.MapRazorPages();
 

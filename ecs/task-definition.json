@@ -1,0 +1,53 @@
+{
+  "family": "diagnostic08finalcommit-task",
+  "requiresCompatibilities": ["FARGATE"],
+  "networkMode": "awsvpc",
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::{{ACCOUNT_ID}}:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::{{ACCOUNT_ID}}:role/ecsTaskRole",
+  "containerDefinitions": [
+    {
+      "name": "diagnostic08finalcommit",
+      "image": "{{IMAGE_URI}}",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        {
+          "name": "ASPNETCORE_ENVIRONMENT",
+          "value": "Production"
+        },
+        {
+          "name": "ASPNETCORE_URLS",
+          "value": "http://+:8080"
+        },
+        {
+          "name": "DOTNET_RUNNING_IN_CONTAINER",
+          "value": "true"
+        },
+        {
+          "name": "DOTNET_SYSTEM_GLOBALIZATION_INVARIANT",
+          "value": "false"
+        },
+        {
+          "name": "DOTNET_EnableDiagnostics",
+          "value": "0"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/diagnostic08finalcommit",
+          "awslogs-region": "{{AWS_REGION}}",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "stopTimeout": 30
+    }
+  ]
+}
