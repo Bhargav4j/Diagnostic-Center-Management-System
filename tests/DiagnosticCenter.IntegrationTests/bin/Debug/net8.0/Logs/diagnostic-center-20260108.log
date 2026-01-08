@@ -1,0 +1,103 @@
+[2026-01-08 11:56:54.405 +00:00 INF] Starting DiagnosticCenter.Web application
+[2026-01-08 11:56:54.484 +00:00 INF] Initializing database...
+[2026-01-08 11:56:54.513 +00:00 WRN] Sensitive data logging is enabled. This should only be used in development.
+[2026-01-08 11:56:54.564 +00:00 INF] Initializing database...
+[2026-01-08 11:56:54.824 +00:00 DBG] Entity configurations applied successfully
+[2026-01-08 11:56:54.892 +00:00 WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2026-01-08 11:56:55.087 +00:00 ERR] Error occurred while initializing database
+System.PlatformNotSupportedException: LocalDB is not supported on this platform.
+   at Microsoft.Data.SqlClient.SNI.LocalDB.GetLocalDBConnectionString(String localDbInstance)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.GetLocalDBDataSource(String fullServerName, Boolean& error)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateConnectionHandle(String fullServerName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, String serverSPN, Boolean flushCache, Boolean async, Boolean parallel, Boolean isIntegratedSecurity, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.CreatePhysicalSNIHandle(String serverName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, SqlConnectionIPAddressPreference iPAddressPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, String serverSPN, Boolean isIntegratedSecurity, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.ExistsAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetAppliedMigrationsAsync(DatabaseFacade databaseFacade, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetPendingMigrationsAsync(DatabaseFacade databaseFacade, CancellationToken cancellationToken)
+   at DiagnosticCenter.Infrastructure.Extensions.ServiceCollectionExtensions.InitializeDatabaseAsync(IServiceProvider serviceProvider, Boolean applyMigrations) in /modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Infrastructure/Extensions/ServiceCollectionExtensions.cs:line 159
+[2026-01-08 11:56:55.097 +00:00 ERR] An error occurred while initializing the database
+System.PlatformNotSupportedException: LocalDB is not supported on this platform.
+   at Microsoft.Data.SqlClient.SNI.LocalDB.GetLocalDBConnectionString(String localDbInstance)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.GetLocalDBDataSource(String fullServerName, Boolean& error)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateConnectionHandle(String fullServerName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, String serverSPN, Boolean flushCache, Boolean async, Boolean parallel, Boolean isIntegratedSecurity, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.CreatePhysicalSNIHandle(String serverName, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Byte[]& instanceName, Byte[][]& spnBuffer, Boolean flushCache, Boolean async, Boolean parallel, SqlConnectionIPAddressPreference iPAddressPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, String serverSPN, Boolean isIntegratedSecurity, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.ExistsAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetAppliedMigrationsAsync(DatabaseFacade databaseFacade, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetPendingMigrationsAsync(DatabaseFacade databaseFacade, CancellationToken cancellationToken)
+   at DiagnosticCenter.Infrastructure.Extensions.ServiceCollectionExtensions.InitializeDatabaseAsync(IServiceProvider serviceProvider, Boolean applyMigrations) in /modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Infrastructure/Extensions/ServiceCollectionExtensions.cs:line 159
+   at Program.<Main>$(String[] args) in /modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Program.cs:line 63
+[2026-01-08 11:56:55.123 +00:00 INF] User profile is available. Using '/home/studioai/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2026-01-08 11:56:55.177 +00:00 INF] Application configured successfully, starting web host
+[2026-01-08 11:56:55.190 +00:00 INF] Creating key {bb0fb576-e20b-4271-9b9d-d78a1da3169b} with creation date 2026-01-08 11:56:55Z, activation date 2026-01-08 11:56:55Z, and expiration date 2026-04-08 11:56:55Z.
+[2026-01-08 11:56:55.194 +00:00 WRN] No XML encryptor configured. Key {bb0fb576-e20b-4271-9b9d-d78a1da3169b} may be persisted to storage in unencrypted form.
+[2026-01-08 11:56:55.196 +00:00 INF] Writing data to file '/home/studioai/.aspnet/DataProtection-Keys/key-bb0fb576-e20b-4271-9b9d-d78a1da3169b.xml'.
+[2026-01-08 11:56:55.237 +00:00 INF] Request starting HTTP/1.1 GET http://localhost/Index - null null
+[2026-01-08 11:56:55.241 +00:00 WRN] Failed to determine the https port for redirect.
+[2026-01-08 11:56:55.259 +00:00 INF] Executing endpoint '/Index'
+[2026-01-08 11:56:55.279 +00:00 INF] Route matched with {page = "/Index"}. Executing page /Index
+[2026-01-08 11:56:55.280 +00:00 WRN] Sensitive data logging is enabled. This should only be used in development.
+[2026-01-08 11:56:55.369 +00:00 INF] Executing handler method DiagnosticCenter.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2026-01-08 11:56:55.370 +00:00 INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2026-01-08 11:56:55.420 +00:00 INF] Executed page /Index in 139.0199ms
+[2026-01-08 11:56:55.422 +00:00 INF] Executed endpoint '/Index'
+[2026-01-08 11:56:55.424 +00:00 INF] HTTP GET /Index responded 200 in 181.0784 ms
+[2026-01-08 11:56:55.428 +00:00 INF] Request finished HTTP/1.1 GET http://localhost/Index - 200 null text/html; charset=utf-8 192.5531ms
+[2026-01-08 11:56:55.434 +00:00 INF] Request starting HTTP/1.1 GET http://localhost/ - null null
+[2026-01-08 11:56:55.436 +00:00 INF] Executing endpoint '/Index'
+[2026-01-08 11:56:55.438 +00:00 INF] Route matched with {page = "/Index"}. Executing page /Index
+[2026-01-08 11:56:55.438 +00:00 WRN] Sensitive data logging is enabled. This should only be used in development.
+[2026-01-08 11:56:55.439 +00:00 INF] Executing handler method DiagnosticCenter.Web.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2026-01-08 11:56:55.439 +00:00 INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2026-01-08 11:56:55.443 +00:00 INF] Executed page /Index in 4.6242ms
+[2026-01-08 11:56:55.443 +00:00 INF] Executed endpoint '/Index'
+[2026-01-08 11:56:55.443 +00:00 INF] HTTP GET / responded 200 in 8.2025 ms
+[2026-01-08 11:56:55.443 +00:00 INF] Request finished HTTP/1.1 GET http://localhost/ - 200 null text/html; charset=utf-8 8.5507ms

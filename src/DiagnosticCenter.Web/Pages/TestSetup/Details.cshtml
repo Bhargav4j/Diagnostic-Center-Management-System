@@ -1,0 +1,91 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestSetup.DetailsModel
+@{
+    ViewData["Title"] = "Test Details";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">
+                        <i class="bi bi-eye"></i> Test Setup Details
+                    </h4>
+                </div>
+                <div class="card-body">
+                    @if (Model.TestSetup != null)
+                    {
+                        <dl class="row">
+                            <dt class="col-sm-3">ID</dt>
+                            <dd class="col-sm-9">@Model.TestSetup.Id</dd>
+
+                            <dt class="col-sm-3">Test Name</dt>
+                            <dd class="col-sm-9">@Model.TestSetup.Name</dd>
+
+                            <dt class="col-sm-3">Test Type</dt>
+                            <dd class="col-sm-9">@(Model.TestSetup.TypeName ?? "N/A")</dd>
+
+                            <dt class="col-sm-3">Fee</dt>
+                            <dd class="col-sm-9">@Model.TestSetup.Fee.ToString("C")</dd>
+
+                            <dt class="col-sm-3">Status</dt>
+                            <dd class="col-sm-9">
+                                @if (Model.TestSetup.IsActive)
+                                {
+                                    <span class="badge bg-success">Active</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary">Inactive</span>
+                                }
+                            </dd>
+
+                            <dt class="col-sm-3">Created Date</dt>
+                            <dd class="col-sm-9">@Model.TestSetup.CreatedDate.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                            @if (Model.TestSetup.ModifiedDate.HasValue)
+                            {
+                                <dt class="col-sm-3">Modified Date</dt>
+                                <dd class="col-sm-9">@Model.TestSetup.ModifiedDate.Value.ToString("dd/MM/yyyy HH:mm")</dd>
+                            }
+
+                            @if (Model.TestSetup.CreatedBy.HasValue)
+                            {
+                                <dt class="col-sm-3">Created By</dt>
+                                <dd class="col-sm-9">User ID: @Model.TestSetup.CreatedBy</dd>
+                            }
+
+                            @if (Model.TestSetup.ModifiedBy.HasValue)
+                            {
+                                <dt class="col-sm-3">Modified By</dt>
+                                <dd class="col-sm-9">User ID: @Model.TestSetup.ModifiedBy</dd>
+                            }
+                        </dl>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a asp-page="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Back to List
+                            </a>
+                            <a asp-page="Edit" asp-route-id="@Model.TestSetup.Id" class="btn btn-warning">
+                                <i class="bi bi-pencil"></i> Edit
+                            </a>
+                            <a asp-page="Delete" asp-route-id="@Model.TestSetup.Id" class="btn btn-danger">
+                                <i class="bi bi-trash"></i> Delete
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle"></i> Test not found.
+                        </div>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

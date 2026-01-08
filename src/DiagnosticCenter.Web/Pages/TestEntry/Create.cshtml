@@ -1,0 +1,116 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestEntry.CreateModel
+@{
+    ViewData["Title"] = "Create Test Entry";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0"><i class="bi bi-plus-circle"></i> Create New Test Entry</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.PatientName" class="form-label">
+                                    Patient Name <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.PatientName" class="form-control" />
+                                <span asp-validation-for="Input.PatientName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.MobileNo" class="form-label">
+                                    Mobile Number <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.MobileNo" class="form-control" />
+                                <span asp-validation-for="Input.MobileNo" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.DateOfBirth" class="form-label">
+                                    Date of Birth <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.DateOfBirth" class="form-control" type="date" />
+                                <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.BillNo" class="form-label">
+                                    Bill Number <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.BillNo" class="form-control" />
+                                <span asp-validation-for="Input.BillNo" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.TestId" class="form-label">
+                                    Test <span class="text-danger">*</span>
+                                </label>
+                                <select asp-for="Input.TestId" class="form-select" asp-items="Model.Tests">
+                                    <option value="">-- Select Test --</option>
+                                </select>
+                                <span asp-validation-for="Input.TestId" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.TotalAmount" class="form-label">
+                                    Total Amount <span class="text-danger">*</span>
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input asp-for="Input.TotalAmount" class="form-control" />
+                                </div>
+                                <span asp-validation-for="Input.TotalAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.PaidAmount" class="form-label">
+                                    Paid Amount
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input asp-for="Input.PaidAmount" class="form-control" />
+                                </div>
+                                <span asp-validation-for="Input.PaidAmount" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Input.DueDate" class="form-label">
+                                    Due Date <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.DueDate" class="form-control" type="date" />
+                                <span asp-validation-for="Input.DueDate" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input asp-for="Input.IsActive" class="form-check-input" />
+                            <label asp-for="Input.IsActive" class="form-check-label">Active</label>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a asp-page="Index" class="btn btn-secondary">
+                                <i class="bi bi-x-circle"></i> Cancel
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-save"></i> Create Test Entry
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

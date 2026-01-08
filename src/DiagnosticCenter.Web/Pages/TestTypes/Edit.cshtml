@@ -1,0 +1,72 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestTypes.EditModel
+@{
+    ViewData["Title"] = "Edit Test Type";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-warning">
+                    <h4 class="mb-0">
+                        <i class="bi bi-pencil"></i> Edit Test Type
+                    </h4>
+                </div>
+                <div class="card-body">
+                    @if (Model.Input != null)
+                    {
+                        <form method="post">
+                            <input type="hidden" asp-for="Input.Id" />
+                            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.Name" class="form-label">
+                                    Test Type Name <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.Name" class="form-control" placeholder="Enter test type name" />
+                                <span asp-validation-for="Input.Name" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.Description" class="form-label">Description</label>
+                                <textarea asp-for="Input.Description" class="form-control" rows="4"
+                                          placeholder="Enter description (optional)"></textarea>
+                                <span asp-validation-for="Input.Description" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input asp-for="Input.IsActive" class="form-check-input" />
+                                <label asp-for="Input.IsActive" class="form-check-label">
+                                    Active
+                                </label>
+                            </div>
+
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a asp-page="Index" class="btn btn-secondary">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </a>
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="bi bi-save"></i> Update Test Type
+                                </button>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle"></i> Test type not found.
+                        </div>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

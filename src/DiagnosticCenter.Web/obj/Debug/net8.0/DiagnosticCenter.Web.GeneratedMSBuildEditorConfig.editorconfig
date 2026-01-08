@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DiagnosticCenter.Web
+build_property.RootNamespace = DiagnosticCenter.Web
+build_property.ProjectDir = /modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Payments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Payments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Payments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Payments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Payments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestEntry/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdEVudHJ5L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestEntry/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdEVudHJ5L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestEntry/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdEVudHJ5L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestEntry/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdEVudHJ5L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestEntry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdEVudHJ5L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestSetup/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFNldHVwL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestSetup/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFNldHVwL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestSetup/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFNldHVwL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestSetup/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFNldHVwL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestSetup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFNldHVwL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFR5cGVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFR5cGVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFR5cGVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFR5cGVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/TestTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFR5cGVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

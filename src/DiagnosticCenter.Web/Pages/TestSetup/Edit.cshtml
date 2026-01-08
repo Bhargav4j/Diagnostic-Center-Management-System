@@ -1,0 +1,86 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestSetup.EditModel
+@{
+    ViewData["Title"] = "Edit Test";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-warning">
+                    <h4 class="mb-0">
+                        <i class="bi bi-pencil"></i> Edit Test
+                    </h4>
+                </div>
+                <div class="card-body">
+                    @if (Model.Input != null)
+                    {
+                        <form method="post">
+                            <input type="hidden" asp-for="Input.Id" />
+                            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.Name" class="form-label">
+                                    Test Name <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.Name" class="form-control" placeholder="Enter test name" />
+                                <span asp-validation-for="Input.Name" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.TypeId" class="form-label">
+                                    Test Type <span class="text-danger">*</span>
+                                </label>
+                                <select asp-for="Input.TypeId" class="form-select" asp-items="Model.TestTypes">
+                                    <option value="">-- Select Test Type --</option>
+                                </select>
+                                <span asp-validation-for="Input.TypeId" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.Fee" class="form-label">
+                                    Fee <span class="text-danger">*</span>
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input asp-for="Input.Fee" class="form-control" placeholder="0.00" />
+                                </div>
+                                <span asp-validation-for="Input.Fee" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input asp-for="Input.IsActive" class="form-check-input" />
+                                <label asp-for="Input.IsActive" class="form-check-label">
+                                    Active
+                                </label>
+                            </div>
+
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a asp-page="Index" class="btn btn-secondary">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </a>
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="bi bi-save"></i> Update Test
+                                </button>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle"></i> Test not found.
+                        </div>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

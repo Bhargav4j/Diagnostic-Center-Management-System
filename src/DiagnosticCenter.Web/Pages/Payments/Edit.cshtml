@@ -1,0 +1,90 @@
+@page
+@model DiagnosticCenter.Web.Pages.Payments.EditModel
+@{
+    ViewData["Title"] = "Edit Payment";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-warning">
+                    <h4 class="mb-0"><i class="bi bi-pencil"></i> Edit Payment</h4>
+                </div>
+                <div class="card-body">
+                    @if (Model.Input != null)
+                    {
+                        <form method="post">
+                            <input type="hidden" asp-for="Input.Id" />
+                            <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.TestEntryId" class="form-label">
+                                    Test Entry (Bill No - Patient) <span class="text-danger">*</span>
+                                </label>
+                                <select asp-for="Input.TestEntryId" class="form-select" asp-items="Model.TestEntries">
+                                    <option value="">-- Select Test Entry --</option>
+                                </select>
+                                <span asp-validation-for="Input.TestEntryId" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.BillNo" class="form-label">
+                                    Bill Number <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.BillNo" class="form-control" />
+                                <span asp-validation-for="Input.BillNo" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.Amount" class="form-label">
+                                    Payment Amount <span class="text-danger">*</span>
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input asp-for="Input.Amount" class="form-control" />
+                                </div>
+                                <span asp-validation-for="Input.Amount" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="Input.PaymentDate" class="form-label">
+                                    Payment Date <span class="text-danger">*</span>
+                                </label>
+                                <input asp-for="Input.PaymentDate" class="form-control" type="date" />
+                                <span asp-validation-for="Input.PaymentDate" class="text-danger"></span>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input asp-for="Input.IsActive" class="form-check-input" />
+                                <label asp-for="Input.IsActive" class="form-check-label">Active</label>
+                            </div>
+
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a asp-page="Index" class="btn btn-secondary">
+                                    <i class="bi bi-x-circle"></i> Cancel
+                                </a>
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="bi bi-save"></i> Update Payment
+                                </button>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle"></i> Payment not found.
+                        </div>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

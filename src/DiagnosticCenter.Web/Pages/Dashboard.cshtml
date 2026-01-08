@@ -1,0 +1,167 @@
+@page
+@model DiagnosticCenter.Web.Pages.DashboardModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid mt-4">
+    <h2 class="mb-4">
+        <i class="bi bi-speedometer2"></i> Dashboard
+    </h2>
+
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title">Test Types</h6>
+                            <h2 class="mb-0">@Model.TotalTestTypes</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-list-ul" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <a asp-page="/TestTypes/Index" class="text-white text-decoration-none">
+                        View Details <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title">Test Setups</h6>
+                            <h2 class="mb-0">@Model.TotalTestSetups</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-clipboard-check" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <a asp-page="/TestSetup/Index" class="text-white text-decoration-none">
+                        View Details <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card text-white bg-info">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title">Test Entries</h6>
+                            <h2 class="mb-0">@Model.TotalTestEntries</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-journal-medical" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <a asp-page="/TestEntry/Index" class="text-white text-decoration-none">
+                        View Details <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card text-white bg-warning">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h6 class="card-title">Payments</h6>
+                            <h2 class="mb-0">@Model.TotalPayments</h2>
+                        </div>
+                        <div>
+                            <i class="bi bi-cash-coin" style="font-size: 3rem; opacity: 0.5;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <a asp-page="/Payments/Index" class="text-white text-decoration-none">
+                        View Details <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="bi bi-currency-dollar"></i> Revenue Summary</h5>
+                </div>
+                <div class="card-body">
+                    <dl class="row mb-0">
+                        <dt class="col-sm-6">Total Revenue:</dt>
+                        <dd class="col-sm-6 text-end fw-bold">@Model.TotalRevenue.ToString("C")</dd>
+
+                        <dt class="col-sm-6">Total Paid:</dt>
+                        <dd class="col-sm-6 text-end text-success fw-bold">@Model.TotalPaid.ToString("C")</dd>
+
+                        <dt class="col-sm-6">Total Due:</dt>
+                        <dd class="col-sm-6 text-end text-danger fw-bold">@Model.TotalDue.ToString("C")</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="bi bi-clock-history"></i> Recent Activity</h5>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted">
+                        <i class="bi bi-info-circle"></i> Welcome to DiagnosticCenter Management System
+                    </p>
+                    <p class="mb-0">Use the navigation menu to manage test types, test setups, test entries, and payments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="mb-0"><i class="bi bi-graph-up"></i> Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 mb-2">
+                            <a asp-page="/TestTypes/Create" class="btn btn-outline-primary w-100">
+                                <i class="bi bi-plus-circle"></i> Add Test Type
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <a asp-page="/TestSetup/Create" class="btn btn-outline-success w-100">
+                                <i class="bi bi-plus-circle"></i> Add Test Setup
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <a asp-page="/TestEntry/Create" class="btn btn-outline-info w-100">
+                                <i class="bi bi-plus-circle"></i> Add Test Entry
+                            </a>
+                        </div>
+                        <div class="col-md-3 mb-2">
+                            <a asp-page="/Payments/Create" class="btn btn-outline-warning w-100">
+                                <i class="bi bi-plus-circle"></i> Add Payment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

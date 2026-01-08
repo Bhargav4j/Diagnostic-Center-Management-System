@@ -1,0 +1,151 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestEntry.DetailsModel
+@{
+    ViewData["Title"] = "Test Entry Details";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0"><i class="bi bi-eye"></i> Test Entry Details</h4>
+                </div>
+                <div class="card-body">
+                    @if (Model.TestEntry != null)
+                    {
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="mb-3">Patient Information</h5>
+                                <dl class="row">
+                                    <dt class="col-sm-4">Patient Name</dt>
+                                    <dd class="col-sm-8">@Model.TestEntry.PatientName</dd>
+
+                                    <dt class="col-sm-4">Date of Birth</dt>
+                                    <dd class="col-sm-8">@Model.TestEntry.DateOfBirth.ToString("dd/MM/yyyy")</dd>
+
+                                    <dt class="col-sm-4">Mobile Number</dt>
+                                    <dd class="col-sm-8">@Model.TestEntry.MobileNo</dd>
+                                </dl>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="mb-3">Test Information</h5>
+                                <dl class="row">
+                                    <dt class="col-sm-4">Bill Number</dt>
+                                    <dd class="col-sm-8">
+                                        <span class="badge bg-primary">@Model.TestEntry.BillNo</span>
+                                    </dd>
+
+                                    <dt class="col-sm-4">Test</dt>
+                                    <dd class="col-sm-8">@(Model.TestEntry.TestName ?? "N/A")</dd>
+
+                                    <dt class="col-sm-4">Status</dt>
+                                    <dd class="col-sm-8">
+                                        @if (Model.TestEntry.IsActive)
+                                        {
+                                            <span class="badge bg-success">Active</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">Inactive</span>
+                                        }
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="mb-3">Payment Information</h5>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th width="25%">Total Amount</th>
+                                            <td width="25%">
+                                                <strong>@Model.TestEntry.TotalAmount.ToString("C")</strong>
+                                            </td>
+                                            <th width="25%">Due Date</th>
+                                            <td width="25%">@Model.TestEntry.DueDate.ToString("dd/MM/yyyy")</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Paid Amount</th>
+                                            <td>
+                                                <span class="text-success fw-bold">@Model.TestEntry.PaidAmount.ToString("C")</span>
+                                            </td>
+                                            <th>Due Amount</th>
+                                            <td>
+                                                @if (Model.TestEntry.DueAmount > 0)
+                                                {
+                                                    <span class="text-danger fw-bold">@Model.TestEntry.DueAmount.ToString("C")</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-success fw-bold">Fully Paid</span>
+                                                }
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <dl class="row">
+                                    <dt class="col-sm-4">Created Date</dt>
+                                    <dd class="col-sm-8">@Model.TestEntry.CreatedDate.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                                    @if (Model.TestEntry.CreatedBy.HasValue)
+                                    {
+                                        <dt class="col-sm-4">Created By</dt>
+                                        <dd class="col-sm-8">User ID: @Model.TestEntry.CreatedBy</dd>
+                                    }
+                                </dl>
+                            </div>
+                            <div class="col-md-6">
+                                <dl class="row">
+                                    @if (Model.TestEntry.ModifiedDate.HasValue)
+                                    {
+                                        <dt class="col-sm-4">Modified Date</dt>
+                                        <dd class="col-sm-8">@Model.TestEntry.ModifiedDate.Value.ToString("dd/MM/yyyy HH:mm")</dd>
+                                    }
+
+                                    @if (Model.TestEntry.ModifiedBy.HasValue)
+                                    {
+                                        <dt class="col-sm-4">Modified By</dt>
+                                        <dd class="col-sm-8">User ID: @Model.TestEntry.ModifiedBy</dd>
+                                    }
+                                </dl>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+                            <a asp-page="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Back to List
+                            </a>
+                            <a asp-page="Edit" asp-route-id="@Model.TestEntry.Id" class="btn btn-warning">
+                                <i class="bi bi-pencil"></i> Edit
+                            </a>
+                            <a asp-page="Delete" asp-route-id="@Model.TestEntry.Id" class="btn btn-danger">
+                                <i class="bi bi-trash"></i> Delete
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">
+                            <i class="bi bi-exclamation-triangle"></i> Test entry not found.
+                        </div>
+                        <a asp-page="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> Back to List
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

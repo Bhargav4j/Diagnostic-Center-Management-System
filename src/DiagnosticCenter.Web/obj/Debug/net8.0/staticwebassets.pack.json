@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/modernize-data/studio-data/TNT1001/APP2824/transformed-code/947/studio-workspace/Comp-Diagnostic0085/src/DiagnosticCenter.Web/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.DiagnosticCenter.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.DiagnosticCenter.Web.props",
+      "PackagePath": "build\\DiagnosticCenter.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.DiagnosticCenter.Web.props",
+      "PackagePath": "buildMultiTargeting\\DiagnosticCenter.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.DiagnosticCenter.Web.props",
+      "PackagePath": "buildTransitive\\DiagnosticCenter.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
