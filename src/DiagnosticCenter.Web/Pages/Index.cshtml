@@ -1,0 +1,38 @@
+@page
+@model DiagnosticCenter.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Diagnostic Center</h1>
+    <p>Modern healthcare management system built with .NET 8</p>
+
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <div class="mt-4">
+            <h3>Welcome, @User.Identity.Name</h3>
+            @if (User.HasClaim("AccountType", "Admin"))
+            {
+                <p>You are logged in as an Administrator</p>
+                <a class="btn btn-primary" asp-page="/TestType/Index">Manage Test Types</a>
+            }
+            else if (User.HasClaim("AccountType", "Receptionist"))
+            {
+                <p>You are logged in as a Receptionist</p>
+                <a class="btn btn-primary" asp-page="/TestEntry/Create">New Test Request</a>
+            }
+            else if (User.HasClaim("AccountType", "Accountant"))
+            {
+                <p>You are logged in as an Accountant</p>
+                <a class="btn btn-primary" asp-page="/Payment/Create">Process Payment</a>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="mt-4">
+            <a class="btn btn-primary" asp-page="/Account/Login">Login</a>
+        </div>
+    }
+</div>

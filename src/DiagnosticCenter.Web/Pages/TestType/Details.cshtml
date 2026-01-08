@@ -1,0 +1,33 @@
+@page "{id:int}"
+@model DiagnosticCenter.Web.Pages.TestType.DetailsModel
+@{
+    ViewData["Title"] = "Test Type Details";
+}
+
+<h2>Test Type Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Name</dt>
+            <dd class="col-sm-9">@Model.TestType?.Name</dd>
+
+            <dt class="col-sm-3">Created Date</dt>
+            <dd class="col-sm-9">@Model.TestType?.CreatedDate.ToString("yyyy-MM-dd HH:mm")</dd>
+
+            @if (Model.TestType?.ModifiedDate != null)
+            {
+                <dt class="col-sm-3">Modified Date</dt>
+                <dd class="col-sm-9">@Model.TestType.ModifiedDate.Value.ToString("yyyy-MM-dd HH:mm")</dd>
+            }
+
+            <dt class="col-sm-3">Status</dt>
+            <dd class="col-sm-9">@(Model.TestType?.IsActive == true ? "Active" : "Inactive")</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-page="Edit" asp-route-id="@Model.TestType?.Id" class="btn btn-warning">Edit</a>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+</div>
