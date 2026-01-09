@@ -1,0 +1,45 @@
+@page
+@model DiagnosticCenter.Web.Pages.TestSetup.CreateModel
+@{
+    ViewData["Title"] = "Create Test Setup";
+}
+
+<h1>Create Test Setup</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.Name" class="form-label"></label>
+                <input asp-for="Input.Name" class="form-control" />
+                <span asp-validation-for="Input.Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.Fee" class="form-label"></label>
+                <input asp-for="Input.Fee" class="form-control" />
+                <span asp-validation-for="Input.Fee" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.TypeId" class="form-label"></label>
+                <select asp-for="Input.TypeId" asp-items="Model.TestTypes" class="form-select">
+                    <option value="">-- Select Type --</option>
+                </select>
+                <span asp-validation-for="Input.TypeId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
