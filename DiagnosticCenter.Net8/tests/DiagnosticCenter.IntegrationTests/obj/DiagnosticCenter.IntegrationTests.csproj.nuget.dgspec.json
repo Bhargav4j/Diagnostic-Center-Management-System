@@ -198,6 +198,10 @@
               "target": "Package",
               "version": "[2.1.28, )"
             },
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -212,7 +216,7 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
@@ -225,6 +229,10 @@
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -392,6 +400,12 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.9.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
             },
             "xunit": {
               "target": "Package",

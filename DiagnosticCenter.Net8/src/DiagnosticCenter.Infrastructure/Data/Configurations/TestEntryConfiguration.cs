@@ -32,14 +32,14 @@ public class TestEntryConfiguration : IEntityTypeConfiguration<TestEntry>
 
         builder.Property(e => e.TotalAmount)
             .IsRequired()
-            .HasColumnType("decimal(18,2)");
+            .HasColumnType("numeric(18,2)");
 
         builder.Property(e => e.DueDate)
             .IsRequired();
 
         builder.Property(e => e.PaidAmount)
             .IsRequired()
-            .HasColumnType("decimal(18,2)")
+            .HasColumnType("numeric(18,2)")
             .HasDefaultValue(0);
 
         builder.Property(e => e.TestId)
@@ -47,7 +47,7 @@ public class TestEntryConfiguration : IEntityTypeConfiguration<TestEntry>
 
         builder.Property(e => e.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("NOW()");
 
         builder.Property(e => e.IsActive)
             .IsRequired()

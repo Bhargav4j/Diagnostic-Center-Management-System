@@ -21,14 +21,14 @@ public class TestSetupConfiguration : IEntityTypeConfiguration<TestSetup>
 
         builder.Property(e => e.Fee)
             .IsRequired()
-            .HasColumnType("decimal(18,2)");
+            .HasColumnType("numeric(18,2)");
 
         builder.Property(e => e.TypeId)
             .IsRequired();
 
         builder.Property(e => e.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("NOW()");
 
         builder.Property(e => e.IsActive)
             .IsRequired()

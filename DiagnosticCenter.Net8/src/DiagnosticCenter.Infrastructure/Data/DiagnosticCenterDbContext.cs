@@ -23,6 +23,14 @@ public class DiagnosticCenterDbContext : IdentityDbContext<User>
     {
         base.OnModelCreating(modelBuilder);
 
+        modelBuilder.HasDefaultSchema("public");
+
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(DiagnosticCenterDbContext).Assembly);
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        base.OnConfiguring(optionsBuilder);
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
     }
 }

@@ -24,7 +24,7 @@ public class TestTypeConfiguration : IEntityTypeConfiguration<TestType>
 
         builder.Property(e => e.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("NOW()");
 
         builder.Property(e => e.IsActive)
             .IsRequired()

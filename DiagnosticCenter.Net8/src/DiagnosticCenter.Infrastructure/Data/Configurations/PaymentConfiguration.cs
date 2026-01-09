@@ -24,7 +24,7 @@ public class PaymentConfiguration : IEntityTypeConfiguration<Payment>
 
         builder.Property(e => e.Amount)
             .IsRequired()
-            .HasColumnType("decimal(18,2)");
+            .HasColumnType("numeric(18,2)");
 
         builder.Property(e => e.PaymentDate)
             .IsRequired();
@@ -38,7 +38,7 @@ public class PaymentConfiguration : IEntityTypeConfiguration<Payment>
 
         builder.Property(e => e.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("NOW()");
 
         builder.Property(e => e.IsActive)
             .IsRequired()

@@ -20,9 +20,15 @@ public static class ServiceCollectionExtensions
         IConfiguration configuration)
     {
         services.AddDbContext<DiagnosticCenterDbContext>(options =>
-            options.UseSqlServer(
+            options.UseNpgsql(
                 configuration.GetConnectionString("DefaultConnection"),
-                b => b.MigrationsAssembly(typeof(DiagnosticCenterDbContext).Assembly.FullName)));
+                b =>
+                {
+                    b.MigrationsAssembly(typeof(DiagnosticCenterDbContext).Assembly.FullName);
+                    b.MigrationsHistoryTable("__ef_migrations_history", "public");
+                    b.EnableRetryOnFailure(maxRetryCount: 3, maxRetryDelay: TimeSpan.FromSeconds(30), errorCodesToAdd: null);
+                })
+            .UseSnakeCaseNamingConvention());
 
         services.AddIdentityCore<User>(options =>
         {
