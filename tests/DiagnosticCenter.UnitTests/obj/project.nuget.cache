@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LHOBlu2PMg0=",
+  "dgSpecHash": "4JyOnUPsyVU=",
   "success": true,
   "projectFilePath": "/modernize-data/studio-data/TNT1001/APP2866/transformed-code/968/studio-workspace/Comp-Diagnostic09/tests/DiagnosticCenter.UnitTests/DiagnosticCenter.UnitTests.csproj",
   "expectedPackageFiles": [
     "/home/studioai/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/studioai/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/home/studioai/.nuget/packages/coverlet.msbuild/6.0.4/coverlet.msbuild.6.0.4.nupkg.sha512",
     "/home/studioai/.nuget/packages/efcore.namingconventions/8.0.0/efcore.namingconventions.8.0.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
     "/home/studioai/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",

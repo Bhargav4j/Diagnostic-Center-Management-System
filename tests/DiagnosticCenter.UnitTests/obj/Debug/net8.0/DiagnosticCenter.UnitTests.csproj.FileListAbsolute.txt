@@ -441,3 +441,4 @@
 /modernize-data/studio-data/TNT1001/APP2866/transformed-code/968/studio-workspace/Comp-Diagnostic09/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/Serilog.Sinks.File.dll
 /modernize-data/studio-data/TNT1001/APP2866/transformed-code/968/studio-workspace/Comp-Diagnostic09/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/DiagnosticCenter.Web.dll
 /modernize-data/studio-data/TNT1001/APP2866/transformed-code/968/studio-workspace/Comp-Diagnostic09/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/DiagnosticCenter.Web.pdb
+/modernize-data/studio-data/TNT1001/APP2866/transformed-code/968/studio-workspace/Comp-Diagnostic09/tests/DiagnosticCenter.UnitTests/bin/Debug/net8.0/CoverletSourceRootsMapping_DiagnosticCenter.UnitTests
