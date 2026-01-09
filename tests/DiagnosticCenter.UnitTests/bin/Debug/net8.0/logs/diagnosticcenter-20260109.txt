@@ -1,0 +1,2 @@
+2026-01-09 14:15:16.851 +00:00 [INF] User profile is available. Using '/home/studioai/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-01-09 14:15:16.902 +00:00 [INF] Starting DiagnosticCenter Web Application

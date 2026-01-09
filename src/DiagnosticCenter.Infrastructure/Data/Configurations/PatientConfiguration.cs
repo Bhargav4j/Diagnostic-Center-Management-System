@@ -8,34 +8,44 @@ public class PatientConfiguration : IEntityTypeConfiguration<Patient>
 {
     public void Configure(EntityTypeBuilder<Patient> builder)
     {
-        builder.ToTable("Patients");
+        builder.ToTable("patients", "public");
 
         builder.HasKey(p => p.Id);
 
         builder.Property(p => p.Name)
             .IsRequired()
-            .HasMaxLength(200);
+            .HasMaxLength(200)
+            .HasColumnType("varchar(200)");
 
         builder.Property(p => p.DateOfBirth)
-            .IsRequired();
+            .IsRequired()
+            .HasColumnType("timestamp without time zone");
 
         builder.Property(p => p.MobileNo)
             .IsRequired()
-            .HasMaxLength(50);
+            .HasMaxLength(50)
+            .HasColumnType("varchar(50)");
 
         builder.Property(p => p.CreatedBy)
             .IsRequired()
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(p => p.ModifiedBy)
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(p => p.CreatedDate)
-            .IsRequired();
+            .IsRequired()
+            .HasColumnType("timestamp without time zone");
+
+        builder.Property(p => p.ModifiedDate)
+            .HasColumnType("timestamp without time zone");
 
         builder.Property(p => p.IsActive)
             .IsRequired()
-            .HasDefaultValue(true);
+            .HasDefaultValue(true)
+            .HasColumnType("boolean");
 
         builder.HasIndex(p => p.MobileNo);
 

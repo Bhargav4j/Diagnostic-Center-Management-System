@@ -8,27 +8,35 @@ public class TestTypeConfiguration : IEntityTypeConfiguration<TestType>
 {
     public void Configure(EntityTypeBuilder<TestType> builder)
     {
-        builder.ToTable("TestTypes");
+        builder.ToTable("test_types", "public");
 
         builder.HasKey(t => t.Id);
 
         builder.Property(t => t.Name)
             .IsRequired()
-            .HasMaxLength(200);
+            .HasMaxLength(200)
+            .HasColumnType("varchar(200)");
 
         builder.Property(t => t.CreatedBy)
             .IsRequired()
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(t => t.ModifiedBy)
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(t => t.CreatedDate)
-            .IsRequired();
+            .IsRequired()
+            .HasColumnType("timestamp without time zone");
+
+        builder.Property(t => t.ModifiedDate)
+            .HasColumnType("timestamp without time zone");
 
         builder.Property(t => t.IsActive)
             .IsRequired()
-            .HasDefaultValue(true);
+            .HasDefaultValue(true)
+            .HasColumnType("boolean");
 
         builder.HasMany(t => t.TestSetups)
             .WithOne(ts => ts.TestType)

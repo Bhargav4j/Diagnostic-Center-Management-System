@@ -8,7 +8,7 @@ public class PatientTestConfiguration : IEntityTypeConfiguration<PatientTest>
 {
     public void Configure(EntityTypeBuilder<PatientTest> builder)
     {
-        builder.ToTable("PatientTests");
+        builder.ToTable("patient_tests", "public");
 
         builder.HasKey(pt => pt.Id);
 
@@ -20,32 +20,41 @@ public class PatientTestConfiguration : IEntityTypeConfiguration<PatientTest>
 
         builder.Property(pt => pt.BillNo)
             .IsRequired()
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(pt => pt.TotalAmount)
             .IsRequired()
-            .HasColumnType("decimal(18,2)");
+            .HasColumnType("numeric(18,2)");
 
         builder.Property(pt => pt.PaidAmount)
             .IsRequired()
-            .HasColumnType("decimal(18,2)");
+            .HasColumnType("numeric(18,2)");
 
         builder.Property(pt => pt.DueDate)
-            .IsRequired();
+            .IsRequired()
+            .HasColumnType("timestamp without time zone");
 
         builder.Property(pt => pt.CreatedBy)
             .IsRequired()
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(pt => pt.ModifiedBy)
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(pt => pt.CreatedDate)
-            .IsRequired();
+            .IsRequired()
+            .HasColumnType("timestamp without time zone");
+
+        builder.Property(pt => pt.ModifiedDate)
+            .HasColumnType("timestamp without time zone");
 
         builder.Property(pt => pt.IsActive)
             .IsRequired()
-            .HasDefaultValue(true);
+            .HasDefaultValue(true)
+            .HasColumnType("boolean");
 
         builder.HasIndex(pt => pt.BillNo)
             .IsUnique();

@@ -8,7 +8,7 @@ public class PaymentConfiguration : IEntityTypeConfiguration<Payment>
 {
     public void Configure(EntityTypeBuilder<Payment> builder)
     {
-        builder.ToTable("Payments");
+        builder.ToTable("payments", "public");
 
         builder.HasKey(p => p.Id);
 
@@ -17,28 +17,37 @@ public class PaymentConfiguration : IEntityTypeConfiguration<Payment>
 
         builder.Property(p => p.BillNo)
             .IsRequired()
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(p => p.AmountPaid)
             .IsRequired()
-            .HasColumnType("decimal(18,2)");
+            .HasColumnType("numeric(18,2)");
 
         builder.Property(p => p.PaymentDate)
-            .IsRequired();
+            .IsRequired()
+            .HasColumnType("timestamp without time zone");
 
         builder.Property(p => p.CreatedBy)
             .IsRequired()
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(p => p.ModifiedBy)
-            .HasMaxLength(100);
+            .HasMaxLength(100)
+            .HasColumnType("varchar(100)");
 
         builder.Property(p => p.CreatedDate)
-            .IsRequired();
+            .IsRequired()
+            .HasColumnType("timestamp without time zone");
+
+        builder.Property(p => p.ModifiedDate)
+            .HasColumnType("timestamp without time zone");
 
         builder.Property(p => p.IsActive)
             .IsRequired()
-            .HasDefaultValue(true);
+            .HasDefaultValue(true)
+            .HasColumnType("boolean");
 
         builder.HasIndex(p => p.BillNo);
     }

@@ -17,11 +17,13 @@
     <PackageReference Include="FluentAssertions" Version="6.12.0" />
     <PackageReference Include="Moq" Version="4.20.70" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\DiagnosticCenter.Application\DiagnosticCenter.Application.csproj" />
     <ProjectReference Include="..\..\src\DiagnosticCenter.Infrastructure\DiagnosticCenter.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\DiagnosticCenter.Web\DiagnosticCenter.Web.csproj" />
   </ItemGroup>
 
 </Project>
