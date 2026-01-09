@@ -1,0 +1,94 @@
+@page
+@model DiagnosticCenter.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Diagnostic Center</h1>
+    <p class="lead">Manage diagnostic tests, patients, and payments efficiently.</p>
+
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <div class="row mt-5">
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Test Types</h5>
+                            <p class="card-text">Manage diagnostic test types</p>
+                            <a asp-page="/TestTypes/Index" class="btn btn-primary">Manage</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Test Setups</h5>
+                            <p class="card-text">Configure test setups and pricing</p>
+                            <a asp-page="/TestSetups/Index" class="btn btn-primary">Manage</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Reports</h5>
+                            <p class="card-text">View test and payment reports</p>
+                            <a asp-page="/Reports/Index" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            @if (User.IsInRole("Receptionist"))
+            {
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Test Entries</h5>
+                            <p class="card-text">Manage patient test entries</p>
+                            <a asp-page="/TestEntries/Index" class="btn btn-primary">View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">New Entry</h5>
+                            <p class="card-text">Create a new test entry</p>
+                            <a asp-page="/TestEntries/Create" class="btn btn-success">Create</a>
+                        </div>
+                    </div>
+                </div>
+            }
+            @if (User.IsInRole("Accountant"))
+            {
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Payments</h5>
+                            <p class="card-text">Process patient payments</p>
+                            <a asp-page="/Payments/Index" class="btn btn-primary">View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Unpaid Bills</h5>
+                            <p class="card-text">View outstanding payments</p>
+                            <a asp-page="/Payments/UnpaidBills" class="btn btn-warning">View</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="mt-5">
+            <a asp-page="/Account/Login" class="btn btn-primary btn-lg">Login to Continue</a>
+        </div>
+    }
+</div>
